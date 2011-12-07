@@ -1,0 +1,2921 @@
+diff -Nur kdenetwork-4.3.4/filesharing/advanced/kcm_sambaconf/kcmsambaconf.desktop kdenetwork-4.3.5/filesharing/advanced/kcm_sambaconf/kcmsambaconf.desktop
+--- kdenetwork-4.3.4/filesharing/advanced/kcm_sambaconf/kcmsambaconf.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/filesharing/advanced/kcm_sambaconf/kcmsambaconf.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -23,6 +23,7 @@
+ Comment[bg]=Настройване споделянето на ресурси с Майкрософт Уиндоус
+ Comment[bn]=মাইক্রোসফ্ট উইন্ডোজের জন্য ভাগাভাগি কনফিগার করতে একটি মডিউল
+ Comment[ca]=Un mòdul per configurar els recursos compartits de Microsoft Windows
++Comment[ca@valencia]=Un mòdul per configurar els recursos compartits de Microsoft Windows
+ Comment[cs]=Modul pro konfiguraci sdílených prostředků MS Windows
+ Comment[da]=Et modul til at indstille delte ressourcer til Microsoft Windows
+ Comment[de]=Modul zum Einrichten von Windows-Freigaben
+@@ -112,6 +113,7 @@
+ Name[bn]=সাম্বা
+ Name[br]=Samba
+ Name[ca]=Samba
++Name[ca@valencia]=Samba
+ Name[cs]=Samba
+ Name[da]=Samba
+ Name[de]=Samba
+diff -Nur kdenetwork-4.3.4/filesharing/advanced/propsdlgplugin/fileshare_propsdlgplugin.desktop kdenetwork-4.3.5/filesharing/advanced/propsdlgplugin/fileshare_propsdlgplugin.desktop
+--- kdenetwork-4.3.4/filesharing/advanced/propsdlgplugin/fileshare_propsdlgplugin.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/filesharing/advanced/propsdlgplugin/fileshare_propsdlgplugin.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bg]=Настройки за приставката за браузъра за споделяна на файлове
+ Name[bn]=ফাইল ভাগাভাগি কনকরার ডিরেক্টরী বৈশিষ্ট্যাবলী পাতা
+ Name[ca]=Pàgina de propietats del directori de compartició de fitxers del Konqueror
++Name[ca@valencia]=Pàgina de propietats del directori de compartició de fitxers del Konqueror
+ Name[cs]=Stránka vlastností adresáře sdílení Konqueroru
+ Name[da]=Fileshare Konqueror-mappens side med egenskaber
+ Name[de]=Ordnerfreigabe-Eigenschaftenseite für Konqueror
+@@ -64,6 +65,7 @@
+ Comment[bg]=Настройка на приставката за браузъра Konqueror за споделяна на директории в локалната мрежа
+ Comment[bn]=স্থানীয় নেটওয়ার্কের সঙ্গে একটি ডিরেক্টরী ভাগাভাগি করতে কনকরার বৈশিষ্ট্যাবলী ডায়ালগ প্লাগিন
+ Comment[ca]=Diàleg de propietats de l'endollable del Konqueror per a compartir un directori amb la xarxa local
++Comment[ca@valencia]=Diàleg de propietats de l'endollable del Konqueror per a compartir un directori amb la xarxa local
+ Comment[cs]=Modul dialogu vlastností Konqueroru pro sdílení adresářů v lokální síti
+ Comment[da]=Konqueror egenskaber-dialog plugin til at dele en mappe med det lokale netværk
+ Comment[de]=Modul für den Konqueror-Eigenschaftendialog zur Freigabe eines Ordners im Netzwerk
+@@ -111,7 +113,7 @@
+ Comment[ta]=Konqueror பண்புகளின் உரையாடல் செருகுகள் அடைவை சம்பா சேவையகத்துடன் பகிரவேண்டிய செருகுகள்
+ Comment[tg]=Модули муколамаи хусусиятҳои Konqueror барои истифодабарии муштараки феҳрист бо шабакаи маҳалллӣ
+ Comment[tr]=Yerel ağ ile dizin paylaşımı için Konqueror iletişim eklentisi özellikleri
+-Comment[uk]=Втулок діалогу властивостей Konqueror для дозволу спільного доступу до каталогу з локальної мережі
++Comment[uk]=Додаток діалогового вікна властивостей Konqueror для уможливлення спільного доступу до каталогу з локальної мережі
+ Comment[vi]=Phần bổ sung hộp thoại thuộc tính Konqueror dùng để chia sẻ một thư mục trên mạng nội bộ
+ Comment[x-test]=xxKonqueror properties dialog plugin to share a directory with the local networkxx
+ Comment[zh_CN]=可将目录与局域网共享的 Konqueror 属性页对话框插件
+diff -Nur kdenetwork-4.3.4/filesharing/simple/fileshare.desktop kdenetwork-4.3.5/filesharing/simple/fileshare.desktop
+--- kdenetwork-4.3.4/filesharing/simple/fileshare.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/filesharing/simple/fileshare.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name[bn]=ফাইল ভাগাভাগি
+ Name[br]=Rannañ restroù
+ Name[ca]=Compartició de fitxers
++Name[ca@valencia]=Compartició de fitxers
+ Name[cs]=Sdílení souborů
+ Name[cy]=Rhannu Ffeiliau
+ Name[da]=Fildeling
+@@ -78,6 +79,7 @@
+ Comment[bg]=Настройване споделянето на файлове
+ Comment[bn]=ফাইল ভাগাভাগি সক্রিয় অথবা নিষ্ক্রিয় করুন
+ Comment[ca]=Habilita o deshabilita la compartició de fitxers
++Comment[ca@valencia]=Habilita o deshabilita la compartició de fitxers
+ Comment[cs]=Povolit nebo zakázat sdílení souborů
+ Comment[da]=Aktivér eller deaktivér fildeling
+ Comment[de]=Dateifreigabe aktivieren/deaktivieren
+diff -Nur kdenetwork-4.3.4/kdnssd/ioslave/zeroconf.desktop kdenetwork-4.3.5/kdnssd/ioslave/zeroconf.desktop
+--- kdenetwork-4.3.4/kdnssd/ioslave/zeroconf.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kdnssd/ioslave/zeroconf.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bn]=নেটওয়ার্ক সার্ভিস
+ Name[br]=Servijoù rouedad
+ Name[ca]=Serveis de xarxa
++Name[ca@valencia]=Serveis de xarxa
+ Name[cs]=Síťové služby
+ Name[da]=Netværkstjenester
+ Name[de]=Netzwerkdienste
+diff -Nur kdenetwork-4.3.4/kdnssd/ioslave/zeroconf.protocol kdenetwork-4.3.5/kdnssd/ioslave/zeroconf.protocol
+--- kdenetwork-4.3.4/kdnssd/ioslave/zeroconf.protocol	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kdnssd/ioslave/zeroconf.protocol	2010-01-21 21:48:44.000000000 +0100
+@@ -18,6 +18,7 @@
+ Description[bn]=জিরো-কন্ফ এর জন্য একটি কে-আই-ও স্লেভ
+ Description[br]=Ur c'hioslave evit ZeroConf
+ Description[ca]=Un kioslave per ZeroConf
++Description[ca@valencia]=Un kioslave per ZeroConf
+ Description[cs]=Pomocný protokol pro Zeroconf
+ Description[da]=En kioslave for Zeroconf
+ Description[de]=Ein-/Ausgabemodul für ZeroConf
+diff -Nur kdenetwork-4.3.4/kdnssd/kdedmodule/dnssdwatcher.desktop kdenetwork-4.3.5/kdnssd/kdedmodule/dnssdwatcher.desktop
+--- kdenetwork-4.3.4/kdnssd/kdedmodule/dnssdwatcher.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kdnssd/kdedmodule/dnssdwatcher.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -5,6 +5,7 @@
+ Name[bg]=DNS-SD Services Watcher
+ Name[bn]=ডিএনএস-এসডি সার্ভিস পর্যবেক্ষক
+ Name[ca]=Vigilant de serveis DNS-SD
++Name[ca@valencia]=Vigilant de serveis DNS-SD
+ Name[cs]=Sledování DNS-SD služeb
+ Name[da]=DNS-SD overvågning af tjenester
+ Name[de]=Überwachung von DNS-SD-Diensten
+@@ -60,6 +61,7 @@
+ Comment[bg]=Keeps track of DNS-SD services and updates directory listings
+ Comment[bn]=ডিএনএস-এসডি সার্ভিসের খোঁজ রাখে এবং ডিরেক্টরী তালিকা আপডেট করে
+ Comment[ca]=Segueix els serveis DNS-SD i actualitza les llistes de directoris
++Comment[ca@valencia]=Segueix els serveis DNS-SD i actualitza les llistes de directoris
+ Comment[cs]=Udržuje přehled o DNS-SD službách a aktualizuje výpisy adresářů
+ Comment[da]=Holder styr på DNS-SD-tjenester og opdaterer lister med mapper
+ Comment[de]=Überwacht DNS-SD-Dienste und aktualisiert Verzeichniseinträge
+diff -Nur kdenetwork-4.3.4/kget/core/plugin/kget_plugin.desktop kdenetwork-4.3.5/kget/core/plugin/kget_plugin.desktop
+--- kdenetwork-4.3.4/kget/core/plugin/kget_plugin.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kget/core/plugin/kget_plugin.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name=KGet Plugin
+ Name[ar]=KGet ملحق
+ Name[ca]=Connector del KGet
++Name[ca@valencia]=Connector del KGet
+ Name[cs]=Modul aplikace KGet
+ Name[da]=KGet-plugin
+ Name[de]=KGet-Modul
+@@ -50,6 +51,7 @@
+ Comment[ar]=ملحق لـ KGet
+ Comment[bg]=Приставка за KGet
+ Comment[ca]=Connector pel KGet
++Comment[ca@valencia]=Connector pel KGet
+ Comment[cs]=Modul pro KGet
+ Comment[da]=Plugin til KGet
+ Comment[de]=Modul für KGet
+diff -Nur kdenetwork-4.3.4/kget/desktop/kget.desktop kdenetwork-4.3.5/kget/desktop/kget.desktop
+--- kdenetwork-4.3.4/kget/desktop/kget.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/desktop/kget.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -12,6 +12,7 @@
+ Name[bn]=কে-গেট
+ Name[br]=KGet
+ Name[ca]=KGet
++Name[ca@valencia]=KGet
+ Name[cs]=KGet
+ Name[cy]=KNôl
+ Name[da]=KGet
+@@ -77,6 +78,7 @@
+ GenericName[bn]=ডাউনলোড ম্যানেজার
+ GenericName[br]=Merour enkargañ
+ GenericName[ca]=Gestor de descàrregues
++GenericName[ca@valencia]=Gestor de descàrregues
+ GenericName[cs]=Správce stahování
+ GenericName[cy]=Rheolydd Lawrlwytho
+ GenericName[da]=Håndtering af download
+diff -Nur kdenetwork-4.3.4/kget/desktop/kget_download.desktop kdenetwork-4.3.5/kget/desktop/kget_download.desktop
+--- kdenetwork-4.3.4/kget/desktop/kget_download.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/desktop/kget_download.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -17,6 +17,7 @@
+ Name[bn]=কে-গেট দিয়ে ডাউনলোড
+ Name[br]=Enkargañ gant KGet
+ Name[ca]=Descarrega amb el KGet
++Name[ca@valencia]=Descarrega amb el KGet
+ Name[cs]=Stáhnout pomocí KGet
+ Name[da]=Download med KGet
+ Name[de]=Mit KGet herunterladen
+diff -Nur kdenetwork-4.3.4/kget/plasma/applet/barapplet/kgetbarapplet-default.desktop kdenetwork-4.3.5/kget/plasma/applet/barapplet/kgetbarapplet-default.desktop
+--- kdenetwork-4.3.4/kget/plasma/applet/barapplet/kgetbarapplet-default.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/plasma/applet/barapplet/kgetbarapplet-default.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -2,6 +2,7 @@
+ Encoding=UTF-8
+ Name=KGet Barchart Applet
+ Name[ca]=Miniaplicació de diagrama de barres del KGet
++Name[ca@valencia]=Miniaplicació de diagrama de barres del KGet
+ Name[cs]=Applet pro sloupcový graf v KGet
+ Name[da]=KGet søjlediagram-applet
+ Name[de]=KGet Balkengrafik-Modul
+@@ -39,6 +40,7 @@
+ Comment=KGet barchart applet
+ Comment[ar]=بريمج KGet عمود خُطاطة
+ Comment[ca]=Miniaplicació de diagrama de barres del KGet
++Comment[ca@valencia]=Miniaplicació de diagrama de barres del KGet
+ Comment[cs]=Applet pro sloupcový graf v KGet
+ Comment[da]=KGet søjlediagram-applet
+ Comment[de]=KGet Balkengrafik-Modul
+diff -Nur kdenetwork-4.3.4/kget/plasma/applet/panelbar/kgetpanelbarapplet-default.desktop kdenetwork-4.3.5/kget/plasma/applet/panelbar/kgetpanelbarapplet-default.desktop
+--- kdenetwork-4.3.4/kget/plasma/applet/panelbar/kgetpanelbarapplet-default.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/plasma/applet/panelbar/kgetpanelbarapplet-default.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -2,6 +2,7 @@
+ Encoding=UTF-8
+ Name=KGet Panelbar Applet
+ Name[ca]=Miniaplicació de panell de barres del KGet
++Name[ca@valencia]=Miniaplicació de panell de barres del KGet
+ Name[da]=KGet panel-applet
+ Name[de]=KGet Kontrollleisten-Modul
+ Name[el]=Μικροεφαρμογή γραμμής πίνακα KGet
+@@ -38,6 +39,7 @@
+ Comment=KGet panelbar applet
+ Comment[ar]=بريمج عمود التحكم KGet
+ Comment[ca]=Miniaplicació de panell de barres del KGet
++Comment[ca@valencia]=Miniaplicació de panell de barres del KGet
+ Comment[da]=KGet panel-applet
+ Comment[de]=KGet Kontrollleisten-Modul
+ Comment[el]=Μικροεφαρμογή γραμμής πίνακα KGet
+diff -Nur kdenetwork-4.3.4/kget/plasma/applet/piechart/kgetpiechartapplet-default.desktop kdenetwork-4.3.5/kget/plasma/applet/piechart/kgetpiechartapplet-default.desktop
+--- kdenetwork-4.3.4/kget/plasma/applet/piechart/kgetpiechartapplet-default.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/plasma/applet/piechart/kgetpiechartapplet-default.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -2,6 +2,7 @@
+ Encoding=UTF-8
+ Name=KGet Piechart Applet
+ Name[ca]=Miniaplicació de diagrama de sectors del KGet
++Name[ca@valencia]=Miniaplicació de diagrama de sectors del KGet
+ Name[cs]=Applet pro koláčový graf v KGet
+ Name[da]=KGet cirkeldiagram-applet
+ Name[de]=KGet Tortengrafik-Modul
+@@ -39,6 +40,7 @@
+ Comment=KGet piechart applet
+ Comment[ar]=بريمج KGet piechart
+ Comment[ca]=Miniaplicació de diagrama de sectors del KGet
++Comment[ca@valencia]=Miniaplicació de diagrama de sectors del KGet
+ Comment[cs]=Applet pro koláčový graf v KGet
+ Comment[da]=KGet cirkeldiagram-applet
+ Comment[de]=KGet Tortengrafik-Modul
+diff -Nur kdenetwork-4.3.4/kget/plasma/engine/plasma-engine-kget.desktop kdenetwork-4.3.5/kget/plasma/engine/plasma-engine-kget.desktop
+--- kdenetwork-4.3.4/kget/plasma/engine/plasma-engine-kget.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/plasma/engine/plasma-engine-kget.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=KGet Data Engine
+ Name[ar]=KGet البيانات المحرك
+ Name[ca]=Motor de dades del KGet
++Name[ca@valencia]=Motor de dades del KGet
+ Name[cs]=Datový nástroj KGet
+ Name[da]=KGet datamotor
+ Name[de]=KGet-Datenmodul
+diff -Nur kdenetwork-4.3.4/kget/sounds/kget.notifyrc kdenetwork-4.3.5/kget/sounds/kget.notifyrc
+--- kdenetwork-4.3.4/kget/sounds/kget.notifyrc	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/sounds/kget.notifyrc	2010-01-21 21:48:47.000000000 +0100
+@@ -5,6 +5,7 @@
+ Comment[bn]=কে-গেট
+ Comment[br]=KGet
+ Comment[ca]=KGet
++Comment[ca@valencia]=KGet
+ Comment[cs]=KGet
+ Comment[cy]=KGet
+ Comment[da]=KGet
+@@ -58,6 +59,7 @@
+ Name=Transfer Added
+ Name[ar]=التحويل أضيف
+ Name[ca]=Transferència afegida
++Name[ca@valencia]=Transferència afegida
+ Name[cs]=Přidán přenos
+ Name[da]=Overførsel tilføjet
+ Name[de]=Download hinzugefügt
+@@ -106,6 +108,7 @@
+ Comment[ar]=تنزيلات جديدة أضيفت
+ Comment[bn]=একটি নতুন ডাউনলোড যোগ করা হয়েছে
+ Comment[ca]=S'ha afegit una descàrrega nova
++Comment[ca@valencia]=S'ha afegit una descàrrega nova
+ Comment[cs]=Byl přidán nový přenos
+ Comment[da]=En ny download er blevet tilføjet
+ Comment[de]=Ein neuer Download wurde hinzugefügt
+@@ -162,6 +165,7 @@
+ Name=Download Started
+ Name[ar]=التنزيل بدأ
+ Name[ca]=S'ha iniciat la descàrrega
++Name[ca@valencia]=S'ha iniciat la descàrrega
+ Name[cs]=Stahování zahájeno
+ Name[da]=Download startet
+ Name[de]=Download gestartet
+@@ -211,6 +215,7 @@
+ Comment[bn]=ডাউনলোড আরম্ভ করল
+ Comment[br]=Kroget eo an enkargañ
+ Comment[ca]=S'ha iniciat la descàrrega
++Comment[ca@valencia]=S'ha iniciat la descàrrega
+ Comment[cs]=Bylo zahájeno stahování
+ Comment[da]=Download startet
+ Comment[de]=Herunterladen gestartet
+@@ -267,6 +272,7 @@
+ Name=Download Finished
+ Name[ar]=التنزيل انتهى
+ Name[ca]=Ha acabat la descàrrega
++Name[ca@valencia]=Ha acabat la descàrrega
+ Name[cs]=Stahování ukončeno
+ Name[da]=Download afsluttet
+ Name[de]=Download abgeschlossen
+@@ -316,6 +322,7 @@
+ Comment[bn]=ডাউনলোড শেষ করল
+ Comment[br]=Echu eo an enkargañ
+ Comment[ca]=Ha acabat la descàrrega
++Comment[ca@valencia]=Ha acabat la descàrrega
+ Comment[cs]=Stahování bylo dokončeno
+ Comment[da]=Download afsluttet
+ Comment[de]=Herunterladen abgeschlossen
+@@ -370,6 +377,7 @@
+ Name=All Downloads Finished
+ Name[ar]=كل التنزيلات انتهت
+ Name[ca]=Han acabat totes les descàrregues
++Name[ca@valencia]=Han acabat totes les descàrregues
+ Name[cs]=Všechna stahování byla dokončena
+ Name[da]=Alle downloads afsluttede
+ Name[de]=Alle Downloads abgeschlossen
+@@ -418,6 +426,7 @@
+ Comment[ar]=كل التنزيلات إنتهت
+ Comment[bn]=সব ডাউনলোড শেষ করল
+ Comment[ca]=Han acabat totes les descàrregues
++Comment[ca@valencia]=Han acabat totes les descàrregues
+ Comment[cs]=Všechna stahování byla dokončena
+ Comment[da]=Alle download afsluttet
+ Comment[de]=Alle Downloads wurden abgeschlossen
+@@ -473,6 +482,7 @@
+ [Event/error]
+ Name=Error Occurred
+ Name[ca]=Hi ha hagut un error
++Name[ca@valencia]=Hi ha hagut un error
+ Name[cs]=Nastala chyba
+ Name[da]=Fejl opstod
+ Name[de]=Fehler aufgetreten
+@@ -514,6 +524,7 @@
+ Name[zh_TW]=發生錯誤
+ Comment=An Error has Occurred
+ Comment[ca]=Hi ha hagut un error
++Comment[ca@valencia]=Hi ha hagut un error
+ Comment[cs]=Nastala chyba
+ Comment[da]=En fejl er opstået
+ Comment[de]=Es ist ein Fehler aufgetreten
+@@ -560,6 +571,7 @@
+ Name=Information
+ Name[ar]=معلومة
+ Name[ca]=Informació
++Name[ca@valencia]=Informació
+ Name[cs]=Informace
+ Name[da]=Information
+ Name[de]=Information
+@@ -607,6 +619,7 @@
+ Name[zh_TW]=資訊
+ Comment=User Notified of Information
+ Comment[ca]=L'usuari ha estat informat
++Comment[ca@valencia]=L'usuari ha estat informat
+ Comment[cs]=Uživatel upozorněn na informace
+ Comment[da]=Brugeren er bekendtgjort med information
+ Comment[de]=Der Benutzer wurde benachrichtigt
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/bittorrent/kget_bittorrentfactory_config.desktop kdenetwork-4.3.5/kget/transfer-plugins/bittorrent/kget_bittorrentfactory_config.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/bittorrent/kget_bittorrentfactory_config.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/bittorrent/kget_bittorrentfactory_config.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=Bittorrent
+ Name[ar]=بيت تورنت
+ Name[ca]=Bittorrent
++Name[ca@valencia]=Bittorrent
+ Name[cs]=Bittorrent
+ Name[da]=Bittorrent
+ Name[de]=Bittorrent
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/bittorrent/kget_bittorrentfactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/bittorrent/kget_bittorrentfactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/bittorrent/kget_bittorrentfactory.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/bittorrent/kget_bittorrentfactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Bittorrent
+ Name[ar]=بيت تورنت
+ Name[ca]=Bittorrent
++Name[ca@valencia]=Bittorrent
+ Name[cs]=Bittorrent
+ Name[da]=Bittorrent
+ Name[de]=Bittorrent
+@@ -53,6 +54,7 @@
+ Name[zh_TW]=Bittorrent
+ Comment=Allows files to be downloaded using Bittorrent
+ Comment[ca]=Permet de descarregar fitxers usant el Bittorrent
++Comment[ca@valencia]=Permet de descarregar fitxers usant el Bittorrent
+ Comment[da]=Muliggør download af filer med brug af Bittorrent
+ Comment[de]=Ermöglicht das Herunterladen von Dateien mit Bittorrent
+ Comment[el]=Επιτρέπει τη λήψη αρχείων με χρήση του Bittorrent
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/contentfetch/kget_contentfetchfactory_config.desktop kdenetwork-4.3.5/kget/transfer-plugins/contentfetch/kget_contentfetchfactory_config.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/contentfetch/kget_contentfetchfactory_config.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/contentfetch/kget_contentfetchfactory_config.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=Content Fetcher
+ Name[ar]=جالب المحتوى
+ Name[ca]=Recollidor de continguts
++Name[ca@valencia]=Recollidor de continguts
+ Name[da]=Content Fetcher
+ Name[de]=Daten-Lader
+ Name[el]=Ανάκτηση περιεχομένου
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/contentfetch/kget_contentfetchfactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/contentfetch/kget_contentfetchfactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/contentfetch/kget_contentfetchfactory.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/contentfetch/kget_contentfetchfactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=Content Fetch
+ Name[ar]=جلب المحتوى
+ Name[ca]=Obtén contingut
++Name[ca@valencia]=Obtén contingut
+ Name[da]=Content Fetch
+ Name[de]=Daten laden
+ Name[el]=Ανάκτηση περιεχομένου
+@@ -50,6 +51,7 @@
+ Comment=Fetch contents with custom scripts.
+ Comment[ar]=جلب المحتوى بسكريبتات مخصصة 
+ Comment[ca]=Agafa continguts amb scripts personalitzats.
++Comment[ca@valencia]=Agafa continguts amb scripts personalitzats.
+ Comment[da]=Henter indhold med brugerdefinerede scripts.
+ Comment[de]=Lädt Dateninhalte mit eigenen Skripten herunter.
+ Comment[el]=Ανάκτηση περιεχομένων με προσαρμοσμένα σενάρια.
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/kio/kget_kiofactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/kio/kget_kiofactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/kio/kget_kiofactory.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kget/transfer-plugins/kio/kget_kiofactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=KIO
+ Name[ar]=KIO
+ Name[ca]=KIO
++Name[ca@valencia]=KIO
+ Name[cs]=KIO
+ Name[da]=KIO
+ Name[de]=KIO
+@@ -52,6 +53,7 @@
+ Comment=Classic file downloader plugin
+ Comment[ar]=ملحق تنزيل الملف الكلاسيكي
+ Comment[ca]=Endollable de descarregador clàssic de fitxers
++Comment[ca@valencia]=Endollable de descarregador clàssic de fitxers
+ Comment[da]=Plugin til klassisk fildownload
+ Comment[de]=Klassisches Datei-Übertragungs-Modul
+ Comment[el]=Κλασικό πρόσθετο λήψης αρχείων
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/metalink/kget_metalinkfactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/metalink/kget_metalinkfactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/metalink/kget_metalinkfactory.desktop	2009-10-02 10:21:16.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/metalink/kget_metalinkfactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -7,7 +7,8 @@
+ # standard fields
+ Name=Metalink
+ Name[ar]=ميتالينك
+-Name[ca]=Metaenllaç
++Name[ca]=«Metalink»
++Name[ca@valencia]=«Metalink»
+ Name[cs]=Metalink
+ Name[da]=Metalink
+ Name[de]=Metalink
+@@ -50,7 +51,8 @@
+ Name[zh_CN]=超级链接
+ Name[zh_TW]=Metalink
+ Comment=Allows files to be downloaded from Metalink
+-Comment[ca]=Permet descarregar fitxers des d'un metaenllaç
++Comment[ca]=Permet descarregar fitxers des d'un «metalink»
++Comment[ca@valencia]=Permet descarregar fitxers des d'un «metalink»
+ Comment[da]=Muliggør download af filer fra Metalink
+ Comment[de]=Ermöglicht die Übertragung von Dateien mittels Metalink
+ Comment[el]=Επιτρέπει τη λήψη αρχείων από το Metalink
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory_config.desktop kdenetwork-4.3.5/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory_config.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory_config.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory_config.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -7,7 +7,8 @@
+ 
+ Name=MirrorSearch
+ Name[ar]=بحث المرآة
+-Name[ca]=CercaMirall
++Name[ca]=Cerca de rèplica
++Name[ca@valencia]=Cerca de rèplica
+ Name[cs]=MirrorSearch
+ Name[da]=MirrorSearch
+ Name[de]=MirrorSearch
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -7,7 +7,8 @@
+ # standard fields
+ Name=Mirror Search
+ Name[ar]=بحث المرآة
+-Name[ca]=Cerca miralls
++Name[ca]=Cerca de rèpliques
++Name[ca@valencia]=Cerca de rèpliques
+ Name[cs]=Mirror Search
+ Name[da]=Mirror Search
+ Name[de]=MirrorSearch
+@@ -50,7 +51,8 @@
+ Name[zh_TW]=映射搜尋
+ 
+ Comment=Allows KGet to search through mirror search engines for files
+-Comment[ca]=Permet que el KGet cerqui el fitxer a miralls de cercadors
++Comment[ca]=Permet que el KGet cerqui els fitxers a rèpliques de motors de cerques
++Comment[ca@valencia]=Permet que el KGet cerque els fitxers a rèpliques de motors de cerques
+ Comment[da]=Gør KGet i stand til at søge efter filer via filspejl-søgemaskiner
+ Comment[de]=Ermöglicht es KGet, nach Dateien über Spiegel-Suchmaschinen zu suchen.
+ Comment[el]=Επιτρέπει στο KGet την αναζήτηση του αρχείου σε μηχανές αναζήτησης αντίγραφα
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/mms/kget_mmsfactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/mms/kget_mmsfactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/mms/kget_mmsfactory.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kget/transfer-plugins/mms/kget_mmsfactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=MMS
+ Name[ar]=MMS
+ Name[ca]=MMS
++Name[ca@valencia]=MMS
+ Name[cs]=MMS
+ Name[da]=MMS
+ Name[de]=MMS
+@@ -54,6 +55,7 @@
+ Comment=MMS-Transfer plugin for KGet
+ Comment[ar]=ملحق محول MMS لـ KGet
+ Comment[ca]=Connector de transferències d'MMS per al KGet
++Comment[ca@valencia]=Connector de transferències d'MMS per al KGet
+ Comment[cs]=MMS-Transfer modul pro KGet
+ Comment[da]=Plugin til MMS-overførsel til KGet
+ Comment[de]=MMS-Übertragungsmodul für KGet
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory_config.desktop kdenetwork-4.3.5/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory_config.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory_config.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory_config.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=MultiSegmentKIO
+ Name[ar]=متعدد أجزاء KIO
+ Name[ca]=MultiSegmentKIO
++Name[ca@valencia]=MultiSegmentKIO
+ Name[cs]=MultiSegmentKIO
+ Name[da]=MultiSegmentKIO
+ Name[de]=MultiSegmentKIO
+diff -Nur kdenetwork-4.3.4/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory.desktop kdenetwork-4.3.5/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory.desktop
+--- kdenetwork-4.3.4/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kget/transfer-plugins/multisegmentkio/kget_multisegkiofactory.desktop	2010-01-21 21:48:47.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=Multi Segment KIO
+ Name[ar]=متعدد اجزاء KIO
+ Name[ca]=Multisegment KIO
++Name[ca@valencia]=Multisegment KIO
+ Name[cs]=Multi Segment KIO
+ Name[da]=Multi Segment-KIO
+ Name[de]=KIO-Übertragungsmodul für Mehrfachsegmente
+@@ -51,6 +52,7 @@
+ Comment=Multithreaded file download plugin
+ Comment[ar]=ملحق تعدد تنزيل الملف
+ Comment[ca]=Connector de transferències multifil per al KGet
++Comment[ca@valencia]=Connector de transferències multifil per al KGet
+ Comment[cs]=Modul pro stahování ve více vláknech
+ Comment[da]=Plugin til flertrådet fildownload
+ Comment[de]=Multithread-Übertragungsmodul für KGet
+diff -Nur kdenetwork-4.3.4/kopete/doc/t1/kopete_tutorialplugin.desktop kdenetwork-4.3.5/kopete/doc/t1/kopete_tutorialplugin.desktop
+--- kdenetwork-4.3.4/kopete/doc/t1/kopete_tutorialplugin.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kopete/doc/t1/kopete_tutorialplugin.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name[ar]=ملحق التعليمات
+ Name[bg]=Приставка за историята
+ Name[ca]=Connector del tutelat
++Name[ca@valencia]=Connector del tutelat
+ Name[cs]=Výukový modul
+ Name[da]=Gennemgangsplugin
+ Name[de]=Anleitungsmodul
+@@ -55,6 +56,7 @@
+ Comment[ar]=ملحق عرض تعليم تطوير Kopete
+ Comment[bg]=Приставка за демонстрация развитието на Kopete
+ Comment[ca]=Connexió de demostració per ensenyar el desenvolupament del Kopete
++Comment[ca@valencia]=Connexió de demostració per ensenyar el desenvolupament del Kopete
+ Comment[cs]=Demonstrační modul pro výuku vývoje pro Kopete
+ Comment[da]=Demonstrationsplugin til at lære Kopete-udvikling
+ Comment[de]=Anleitungsmodul zum Einfinden in die Kopete-Entwicklung
+diff -Nur kdenetwork-4.3.4/kopete/doc/t2/kopete_tutorialplugin.desktop kdenetwork-4.3.5/kopete/doc/t2/kopete_tutorialplugin.desktop
+--- kdenetwork-4.3.4/kopete/doc/t2/kopete_tutorialplugin.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kopete/doc/t2/kopete_tutorialplugin.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name[ar]=ملحق التعليمات
+ Name[bg]=Приставка за историята
+ Name[ca]=Connector del tutelat
++Name[ca@valencia]=Connector del tutelat
+ Name[cs]=Výukový modul
+ Name[da]=Gennemgangsplugin
+ Name[de]=Anleitungsmodul
+@@ -55,6 +56,7 @@
+ Comment[ar]=ملحق عرض تعليم تطوير Kopete
+ Comment[bg]=Приставка за демонстрация развитието на Kopete
+ Comment[ca]=Connexió de demostració per ensenyar el desenvolupament del Kopete
++Comment[ca@valencia]=Connexió de demostració per ensenyar el desenvolupament del Kopete
+ Comment[cs]=Demonstrační modul pro výuku vývoje pro Kopete
+ Comment[da]=Demonstrationsplugin til at lære Kopete-udvikling
+ Comment[de]=Anleitungsmodul zum Einfinden in die Kopete-Entwicklung
+diff -Nur kdenetwork-4.3.4/kopete/doc/t3/kopete_tutorialplugin_config.desktop kdenetwork-4.3.5/kopete/doc/t3/kopete_tutorialplugin_config.desktop
+--- kdenetwork-4.3.4/kopete/doc/t3/kopete_tutorialplugin_config.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/doc/t3/kopete_tutorialplugin_config.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[ar]=تعليمات
+ Name[bg]=Ръководство
+ Name[ca]=Tutelat
++Name[ca@valencia]=Tutelat
+ Name[cs]=Výuka
+ Name[da]=Gennemgang
+ Name[de]=Anleitung
+@@ -57,6 +58,7 @@
+ Comment[ar]=حول للأشخاص العاديين في مطور Super Kopete 
+ Comment[bg]=Превръща обикновените хора в супер копетъри
+ Comment[ca]=Torna a la gent normal en super desenvolupadors del Kopete
++Comment[ca@valencia]=Torna a la gent normal en super desenvolupadors del Kopete
+ Comment[cs]=Udělá z normálních lidí super vývojáře Kopete
+ Comment[da]=Gør almindelige mennesker til suveræne Kopete-udviklere
+ Comment[de]=Macht Normalsterbliche zu Super-Kopete-Entwicklern ;-)
+diff -Nur kdenetwork-4.3.4/kopete/doc/t3/kopete_tutorialplugin.desktop kdenetwork-4.3.5/kopete/doc/t3/kopete_tutorialplugin.desktop
+--- kdenetwork-4.3.4/kopete/doc/t3/kopete_tutorialplugin.desktop	2009-11-27 14:03:39.000000000 +0100
++++ kdenetwork-4.3.5/kopete/doc/t3/kopete_tutorialplugin.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name[ar]=ملحق التعليمات
+ Name[bg]=Приставка за историята
+ Name[ca]=Connector del tutelat
++Name[ca@valencia]=Connector del tutelat
+ Name[cs]=Výukový modul
+ Name[da]=Gennemgangsplugin
+ Name[de]=Anleitungsmodul
+@@ -55,6 +56,7 @@
+ Comment[ar]=ملحق عرض تعليم تطوير Kopete
+ Comment[bg]=Приставка за демонстрация развитието на Kopete
+ Comment[ca]=Connexió de demostració per ensenyar el desenvolupament del Kopete
++Comment[ca@valencia]=Connexió de demostració per ensenyar el desenvolupament del Kopete
+ Comment[cs]=Demonstrační modul pro výuku vývoje pro Kopete
+ Comment[da]=Demonstrationsplugin til at lære Kopete-udvikling
+ Comment[de]=Anleitungsmodul zum Einfinden in die Kopete-Entwicklung
+diff -Nur kdenetwork-4.3.4/kopete/kopete/chatwindow/chatwindow.desktop kdenetwork-4.3.5/kopete/kopete/chatwindow/chatwindow.desktop
+--- kdenetwork-4.3.4/kopete/kopete/chatwindow/chatwindow.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/chatwindow/chatwindow.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -18,6 +18,7 @@
+ Name[bn]=কপেট চ্যাট উইন্ডো
+ Name[br]=Prenestr flapañ Kopete
+ Name[ca]=Finestra de xat del Kopete
++Name[ca@valencia]=Finestra de xat del Kopete
+ Name[cs]=Okno rozhovoru Kopete
+ Name[cy]=Ffenestr Sgwrs Kopete
+ Name[da]=Kopete Chat-vindue
+@@ -79,6 +80,7 @@
+ Comment[bg]=Стандартен прозорец за разговори
+ Comment[bn]=ডিফল্ট কপেট চ্যাট উইন্ডো
+ Comment[ca]=La finestra de xat per defecte del Kopete
++Comment[ca@valencia]=La finestra de xat per defecte del Kopete
+ Comment[cs]=Výchozí okno Kopete pro rozhovor
+ Comment[cy]=Y ffenestr sgwrs Kopete rhagosod
+ Comment[da]=Kopete's standard-chatvindue
+diff -Nur kdenetwork-4.3.4/kopete/kopete/chatwindow/emailwindow.desktop kdenetwork-4.3.5/kopete/kopete/chatwindow/emailwindow.desktop
+--- kdenetwork-4.3.4/kopete/kopete/chatwindow/emailwindow.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/chatwindow/emailwindow.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -18,6 +18,7 @@
+ Name[bn]=কপেট ই-মেইল উইন্ডো
+ Name[br]=Prenestr postel Kopete
+ Name[ca]=Finestra de correu-e del Kopete
++Name[ca@valencia]=Finestra de correu-e del Kopete
+ Name[cs]=Emailové okno Kopete
+ Name[da]=Kopete's e-mail-vindue
+ Name[de]=E-Mail-Fenster von Kopete
+@@ -75,6 +76,7 @@
+ Comment[bn]=কপেট ই-মেইল উইন্ডো
+ Comment[br]=Prenestr postel Kopete
+ Comment[ca]=La finestra de correu-e del Kopete
++Comment[ca@valencia]=La finestra de correu-e del Kopete
+ Comment[cs]=Emailové okno Kopete
+ Comment[da]=Kopete's e-mail-vindue
+ Comment[de]=Das E-Mail-Fenster für Kopete
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/accounts/kopete_accountconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/accounts/kopete_accountconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/accounts/kopete_accountconfig.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/config/accounts/kopete_accountconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -15,6 +15,7 @@
+ Name[bn]=অ্যাকাউন্ট
+ Name[br]=Kontoù
+ Name[ca]=Comptes
++Name[ca@valencia]=Comptes
+ Name[cs]=Účty
+ Name[cy]=Cyfrifon
+ Name[da]=Konti
+@@ -67,7 +68,7 @@
+ Name[ta]=கணக்குகள்
+ Name[tg]=Ҳисоботҳо
+ Name[tr]=Hesaplar
+-Name[uk]=Рахунки
++Name[uk]=Облікові записи
+ Name[uz]=Hisoblar
+ Name[uz@cyrillic]=Ҳисоблар
+ Name[vi]=Tài khoản
+@@ -79,6 +80,7 @@
+ Comment=Manage Your Accounts and Identities
+ Comment[ar]=أدِر حساباتك وعضوياتك
+ Comment[ca]=Gestioneu els vostres comptes i identitats
++Comment[ca@valencia]=Gestioneu els vostres comptes i identitats
+ Comment[cs]=Správa účtů a identit
+ Comment[da]=Håndtér dine konti og identiteter
+ Comment[de]=Hier können Sie Ihre Zugänge und Identitäten verwalten
+@@ -118,7 +120,7 @@
+ Comment[sr@latin]=Upravljajte svojim nalozima i identitetima
+ Comment[sv]=Hantera dina konton och identiteter
+ Comment[tr]=Kimliklerinizi ve Hesaplarınızı Yönetin
+-Comment[uk]=Керування вашими рахунками і особами
++Comment[uk]=Керування вашими обліковими записами та профілями
+ Comment[x-test]=xxManage Your Accounts and Identitiesxx
+ Comment[zh_CN]=管理您的账户和身份
+ Comment[zh_TW]=管理您的帳號與身份
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/appearance/kopete_appearanceconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/appearance/kopete_appearanceconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/appearance/kopete_appearanceconfig.desktop	2009-11-27 14:03:38.000000000 +0100
++++ kdenetwork-4.3.5/kopete/kopete/config/appearance/kopete_appearanceconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -11,6 +11,7 @@
+ Name=Contact List
+ Name[ar]=قائمة المراسَل
+ Name[ca]=Llista de contactes
++Name[ca@valencia]=Llista de contactes
+ Name[cs]=Seznam kontaktů
+ Name[da]=Kontaktliste
+ Name[de]=Kontaktliste
+@@ -58,6 +59,7 @@
+ Comment=Configure Contact List Look and Feel
+ Comment[ar]=اضبط  مظهر و ملمس نافذة الدردشة
+ Comment[ca]=Configura l'aparença i comportament de la llista de contactes
++Comment[ca@valencia]=Configura l'aparença i comportament de la llista de contactes
+ Comment[cs]=Nastavení vzhledu a chování seznamu kontaktů
+ Comment[da]=Indstil kontaktlistens look & feel
+ Comment[de]=Erscheinungsbild der Kontaktliste einrichten
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/avdevice/kopete_avdeviceconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/avdevice/kopete_avdeviceconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/avdevice/kopete_avdeviceconfig.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/config/avdevice/kopete_avdeviceconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -12,6 +12,7 @@
+ Name=Video
+ Name[ar]=فيديو
+ Name[ca]=Vídeo
++Name[ca@valencia]=Vídeo
+ Name[cs]=Video
+ Name[da]=Video
+ Name[de]=Video
+@@ -60,6 +61,7 @@
+ Comment=Configure Video Devices
+ Comment[ar]=اضبط أجهزة الفيديو
+ Comment[ca]=Configura els dispositius de vídeo
++Comment[ca@valencia]=Configura els dispositius de vídeo
+ Comment[cs]=Nastavení video zařízení
+ Comment[da]=Indstil videoenheder
+ Comment[de]=Videogeräte einrichten
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/behavior/kopete_behaviorconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/behavior/kopete_behaviorconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/behavior/kopete_behaviorconfig.desktop	2009-10-30 13:31:14.000000000 +0100
++++ kdenetwork-4.3.5/kopete/kopete/config/behavior/kopete_behaviorconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name[bn]=আচরণ
+ Name[br]=Emzalc'h
+ Name[ca]=Comportament
++Name[ca@valencia]=Comportament
+ Name[cs]=Chování
+ Name[cy]=Ymddygiad
+ Name[da]=Opførsel
+@@ -80,6 +81,7 @@
+ Comment[ar]=تخصيص سلوكات Kopete' s
+ Comment[bg]=Настройване поведението на Kopete
+ Comment[ca]=Personalitzeu el comportament del Kopete
++Comment[ca@valencia]=Personalitzeu el comportament del Kopete
+ Comment[cs]=Přizpůsobení chování Kopete
+ Comment[da]=Personliggørelse af Kopetes opførsel
+ Comment[de]=Anpassung von Kopete an Ihre persönlichen Vorstellungen
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/chatwindow/kopete_chatwindowconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/chatwindow/kopete_chatwindowconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/chatwindow/kopete_chatwindowconfig.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/config/chatwindow/kopete_chatwindowconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -11,6 +11,7 @@
+ Name=Chat Window
+ Name[ar]=نافذة محادثة Kopete
+ Name[ca]=Finestra de xat
++Name[ca@valencia]=Finestra de xat
+ Name[cs]=Okno rozhovoru
+ Name[da]=Chatvindue
+ Name[de]=Chat-Fenster
+@@ -58,6 +59,7 @@
+ Comment=Configure Chat Window Look and Feel
+ Comment[ar]=اضبط  مظهر و ملمس نافذة الدردشة
+ Comment[ca]=Configura l'aparença i comportament de la finestra de xat
++Comment[ca@valencia]=Configura l'aparença i comportament de la finestra de xat
+ Comment[cs]=Nastavení vzhledu a chování okna rozhovoru
+ Comment[da]=Indstil chatvinduets look & feel
+ Comment[de]=Erscheinungsbild des Chat-Fensters einrichten
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/plugins/kopete_pluginconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/plugins/kopete_pluginconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/plugins/kopete_pluginconfig.desktop	2009-11-27 14:03:38.000000000 +0100
++++ kdenetwork-4.3.5/kopete/kopete/config/plugins/kopete_pluginconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name[bg]=Приставки
+ Name[br]=Lugantoù
+ Name[ca]=Connectors
++Name[ca@valencia]=Connectors
+ Name[cs]=Moduly
+ Name[da]=Plugins
+ Name[de]=Module
+@@ -67,6 +68,7 @@
+ Comment=Select and Configure Plugins
+ Comment[ar]=تحديد و إعداد الملحقات
+ Comment[ca]=Selecciona i configura els connectors
++Comment[ca@valencia]=Selecciona i configura els connectors
+ Comment[cs]=Výběr a nastavení modulů
+ Comment[da]=Vælg og indstil plugins
+ Comment[de]=Module auswählen und einrichten
+diff -Nur kdenetwork-4.3.4/kopete/kopete/config/status/kopete_statusconfig.desktop kdenetwork-4.3.5/kopete/kopete/config/status/kopete_statusconfig.desktop
+--- kdenetwork-4.3.4/kopete/kopete/config/status/kopete_statusconfig.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/config/status/kopete_statusconfig.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -11,6 +11,7 @@
+ Name=Status
+ Name[ar]=الحالة
+ Name[ca]=Estat
++Name[ca@valencia]=Estat
+ Name[cs]=Stav
+ Name[da]=Status
+ Name[de]=Status
+@@ -57,6 +58,7 @@
+ Comment=Manage Your Statuses
+ Comment[ar]=أدِر حالاتك
+ Comment[ca]=Gestioneu els vostres estats
++Comment[ca@valencia]=Gestioneu els vostres estats
+ Comment[cs]=Správa stavů
+ Comment[da]=Håndtér din status
+ Comment[de]=Statuseinstellungen verwalten
+diff -Nur kdenetwork-4.3.4/kopete/kopete/kopete.desktop kdenetwork-4.3.5/kopete/kopete/kopete.desktop
+--- kdenetwork-4.3.4/kopete/kopete/kopete.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/kopete.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bn]=কপেট
+ Name[br]=Kopete
+ Name[ca]=Kopete
++Name[ca@valencia]=Kopete
+ Name[cs]=Kopete
+ Name[cy]=Kopete
+ Name[da]=Kopete
+@@ -71,6 +72,7 @@
+ GenericName[bn]=তাত্ক্ষণিক বার্তাবাহক
+ GenericName[br]=Posteler a-benn-kaer
+ GenericName[ca]=Missatger a l'instant
++GenericName[ca@valencia]=Missatger a l'instant
+ GenericName[cs]=Komunikátor
+ GenericName[cy]=Negesydd Chwim
+ GenericName[da]=Instant Messenger
+@@ -137,6 +139,7 @@
+ Comment[bn]=তাত্ক্ষণিক বার্তাবাহক
+ Comment[br]=Posteler a-benn-kaer
+ Comment[ca]=Missatger a l'instant
++Comment[ca@valencia]=Missatger a l'instant
+ Comment[cs]=Komunikátor
+ Comment[cy]=Negesydd Chwim
+ Comment[da]=Instant Messenger
+diff -Nur kdenetwork-4.3.4/kopete/kopete/kopete.notifyrc kdenetwork-4.3.5/kopete/kopete/kopete.notifyrc
+--- kdenetwork-4.3.4/kopete/kopete/kopete.notifyrc	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/kopete/kopete.notifyrc	2010-01-21 21:48:46.000000000 +0100
+@@ -4,6 +4,7 @@
+ Comment[ar]=Kopete مراسل
+ Comment[bn]=কপেট বার্তাবাহক
+ Comment[ca]=Missatger Kopete
++Comment[ca@valencia]=Missatger Kopete
+ Comment[cs]=Kopete komunikátor
+ Comment[cy]=Negesydd Kopete
+ Comment[da]=Kopete Messenger
+@@ -64,6 +65,7 @@
+ Name=Group
+ Name[ar]=المجموعة
+ Name[ca]=Grup
++Name[ca@valencia]=Grup
+ Name[cs]=Skupina
+ Name[da]=Gruppe
+ Name[de]=Gruppe
+@@ -113,6 +115,7 @@
+ Comment=The group where the contact resides
+ Comment[ar]=مجموعة المراسَل
+ Comment[ca]=El grup a on resideix el contacte
++Comment[ca@valencia]=El grup a on resideix el contacte
+ Comment[cs]=Skupina, kde je umístěn kontakt
+ Comment[da]=Gruppen hvor kontakten hører til
+ Comment[de]=Die Gruppe, zu der der Kontakt gehört
+@@ -163,6 +166,7 @@
+ Name=Contact
+ Name[ar]=المراسَل
+ Name[ca]=Contacte
++Name[ca@valencia]=Contacte
+ Name[cs]=Kontakt
+ Name[da]=Kontakt
+ Name[de]=Kontakt
+@@ -212,6 +216,7 @@
+ Comment=The specified contact
+ Comment[ar]=المراسَل المحدد
+ Comment[ca]=El contacte especificat
++Comment[ca@valencia]=El contacte especificat
+ Comment[cs]=Zadaný kontakt
+ Comment[da]=Den specificerede kontakt
+ Comment[de]=Der angegebene Kontakt
+@@ -262,6 +267,7 @@
+ Name=Class
+ Name[ar]=الفئة
+ Name[ca]=Classe
++Name[ca@valencia]=Classe
+ Name[cs]=Třída
+ Name[da]=Klasse
+ Name[de]=Klasse
+@@ -311,6 +317,7 @@
+ Comment=The message class
+ Comment[ar]=فئة الرسالة
+ Comment[ca]=La classe de missatge
++Comment[ca@valencia]=La classe de missatge
+ Comment[cs]=Třída zprávy
+ Comment[da]=Beskedklasse
+ Comment[de]=Die Nachrichtenklasse
+@@ -362,6 +369,7 @@
+ Name=Incoming Message
+ Name[ar]=الرسالة القادمة
+ Name[ca]=Missatge entrant
++Name[ca@valencia]=Missatge entrant
+ Name[cs]=Příchozí zpráva
+ Name[da]=Indkommende besked
+ Name[de]=Eingehende Nachricht
+@@ -397,7 +405,7 @@
+ Name[pt_BR]=Mensagem recebida
+ Name[ro]=Mesaj de intrare
+ Name[ru]=Входящее сообщение
+-Name[sl]=Prihajajoče sporočilo
++Name[sl]=Prejeto sporočilo
+ Name[sr]=Долазна порука
+ Name[sr@latin]=Dolazna poruka
+ Name[sv]=Inkommande meddelande
+@@ -410,6 +418,7 @@
+ Comment[ar]=تم استقبال رسالة جديدة
+ Comment[bn]=একটি অন্তর্মুখী বার্তা গ্রহণ করা হয়েছে
+ Comment[ca]=S'ha rebut un missatge entrant
++Comment[ca@valencia]=S'ha rebut un missatge entrant
+ Comment[cs]=Byla obdržena příchozí zpráva
+ Comment[da]=En indkommende besked er blevet modtaget
+ Comment[de]=Eine eingehende Nachricht wurde empfangen
+@@ -471,6 +480,7 @@
+ Name=Incoming Message in Active Chat
+ Name[ar]=رسالة قادمة في الدردشة الحالية
+ Name[ca]=Missatge entrant en un xat actiu
++Name[ca@valencia]=Missatge entrant en un xat actiu
+ Name[cs]=Příchozí zpráva v aktivním rozhovoru
+ Name[da]=Indkommende besked i aktiv chat
+ Name[de]=Eingehende Nachricht in aktivem Chat
+@@ -504,7 +514,7 @@
+ Name[pt_BR]=Mensagem recebida no bate-papo ativo
+ Name[ro]=Mesaj de intrare în discuția activă
+ Name[ru]=Входящее сообщение в активной беседе
+-Name[sl]=Prihajajoče sporočilo v aktivnem klepetu
++Name[sl]=Prejeto sporočilo v aktivnem klepetu
+ Name[sr]=Долазна порука у активном ћаскању
+ Name[sr@latin]=Dolazna poruka u aktivnom ćaskanju
+ Name[sv]=Inkommande meddelande i aktiv chatt
+@@ -516,6 +526,7 @@
+ Comment=An incoming message in the active chat window has been received
+ Comment[ar]=تم استقبال رسالة جديدة في نافذة الدردشة الحالية
+ Comment[ca]=S'ha rebut un missatge entrant en la finestra de xat activa
++Comment[ca@valencia]=S'ha rebut un missatge entrant en la finestra de xat activa
+ Comment[cs]=Byla obdržena příchozí zpráva v okně aktivního rozhovoru
+ Comment[da]=En indkommende besked er blevet modtaget i den aktive chat
+ Comment[de]=Eine eingehende Nachricht im aktiven Chat-Fenster wurde empfangen
+@@ -564,6 +575,7 @@
+ Name=Outgoing Message
+ Name[ar]=الرسالة الخارجة
+ Name[ca]=Missatge sortint
++Name[ca@valencia]=Missatge eixint
+ Name[cs]=Odchozí zpráva
+ Name[da]=Udgående besked
+ Name[de]=Ausgehende Nachricht
+@@ -612,6 +624,7 @@
+ Comment[ar]=تم إرسال رسالة خارجة
+ Comment[bn]=একটি বহির্মুখী বার্তা পাঠান হয়েছে
+ Comment[ca]=S'ha enviat un missatge sortint
++Comment[ca@valencia]=S'ha enviat un missatge eixint
+ Comment[cs]=Byla odeslána zpráva
+ Comment[da]=En udgående besked er blevet sendt
+ Comment[de]=Eine ausgehende Nachricht wurde gesendet
+@@ -672,6 +685,7 @@
+ Name=Contact Gone Online
+ Name[ar]=مراسَل أصبح متصل
+ Name[ca]=Un contacte s'ha connectat
++Name[ca@valencia]=Un contacte s'ha connectat
+ Name[cs]=Osoba je online
+ Name[da]=Kontakten er gået online
+ Name[de]=Kontakt ist online
+@@ -721,6 +735,7 @@
+ Comment[ar]=مراسَل أ صبح على الخط
+ Comment[bn]=যোগাযোগ তালিকাভুক্ত একজন অনলাইন হয়েছে
+ Comment[ca]=Un contacte s'ha connectat
++Comment[ca@valencia]=Un contacte s'ha connectat
+ Comment[cs]=Osoba je online
+ Comment[da]=En kontakt er gået på nettet
+ Comment[de]=Ein Kontakt ist nun online
+@@ -780,6 +795,7 @@
+ Name[bn]=অফলাইন
+ Name[br]=N'eo ket enlinenn
+ Name[ca]=Desconnectat
++Name[ca@valencia]=Desconnectat
+ Name[cs]=Offline
+ Name[cy]=All-lein
+ Name[da]=Gå offline
+@@ -839,6 +855,7 @@
+ Comment[ar]=مراسَل أصبح غير متّصل
+ Comment[bn]=যোগাযোগ তালিকাভুক্ত একজন অফলাইন হয়ে গিয়েছে
+ Comment[ca]=Un contacte s'ha desconnectat
++Comment[ca@valencia]=Un contacte s'ha desconnectat
+ Comment[cs]=Osoba je offline
+ Comment[da]=En kontakt er gået af nettet
+ Comment[de]=Ein Kontakt ist nun offline
+@@ -897,6 +914,7 @@
+ Name[ar]=الحالة تغيرت
+ Name[bn]=অবস্থা পরিবর্তন
+ Name[ca]=Canvia l'estat
++Name[ca@valencia]=Canvia l'estat
+ Name[cs]=Změna stavu
+ Name[cy]=Newid Cyflwr
+ Name[da]=Statusændring
+@@ -955,6 +973,7 @@
+ Comment[ar]=تغير حالة مراسَل متصل
+ Comment[bn]=যোগাযোগ তালিকাভুক্ত একজনের অনলাইন অবস্থার পরিবর্তন হয়েছে
+ Comment[ca]=L'estat d'un contacte ha canviat
++Comment[ca@valencia]=L'estat d'un contacte ha canviat
+ Comment[cs]=Osoba změnila online stav
+ Comment[da]=En kontakts status på nettet er ændret
+ Comment[de]=Der Online-Status eines Kontakt hat sich geändert
+@@ -1015,6 +1034,7 @@
+ Name[bn]=গুরুত্বপূর্ণ
+ Name[br]=Splannadur
+ Name[ca]=Ressaltat
++Name[ca@valencia]=Ressaltat
+ Name[cs]=Zvýraznění
+ Name[cy]=Amlygu
+ Name[da]=Fremhæv
+@@ -1078,6 +1098,7 @@
+ Comment[ar]=رسالة بارزة استقبلت
+ Comment[bn]=একটি গুরুত্বপূর্ণ বার্তা গ্রহণ করা হয়েছে
+ Comment[ca]=S'ha rebut un missatge ressaltat
++Comment[ca@valencia]=S'ha rebut un missatge ressaltat
+ Comment[cs]=Byla obdržena zvýrazněná zpráva
+ Comment[da]=En fremhævet besked er blevet modtaget
+ Comment[de]=Eine hervorgehobene Nachricht ist eingegangen
+@@ -1137,6 +1158,7 @@
+ Name=Low Priority Messages
+ Name[ar]=رسائل منخفضة الأولويّة 
+ Name[ca]=Missatges de baixa prioritat
++Name[ca@valencia]=Missatges de baixa prioritat
+ Name[cs]=Zprávy s nízkou prioritou
+ Name[da]=Beskeder med lav prioritet
+ Name[de]=Nachrichten mit niedriger Priorität
+@@ -1185,6 +1207,7 @@
+ Comment[ar]=رسالة منخفضة الأولوية استقبلت
+ Comment[bn]=একটি কম গুরুত্বপূর্ণ বার্তা গ্রহণ করা হয়েছে
+ Comment[ca]=S'ha rebut un missatge marcat amb baixa prioritat
++Comment[ca@valencia]=S'ha rebut un missatge marcat amb baixa prioritat
+ Comment[cs]=Byla obdržena zvýrazněná zpráva s nízkou prioritou
+ Comment[da]=En indkommende besked med lav prioritet er blevet modtaget
+ Comment[de]=Eine Nachricht mit niedriger Priorität ist eingegangen
+@@ -1245,6 +1268,7 @@
+ Name[bn]=ইয়্যাহু মেইল
+ Name[br]=Postel Yahoo
+ Name[ca]=Correu Yahoo
++Name[ca@valencia]=Correu Yahoo
+ Name[cs]=Yahoo Mail
+ Name[da]=Yahoo Mail
+ Name[de]=Yahoo Mail
+@@ -1300,6 +1324,7 @@
+ Comment[bn]=আপনার ইয়্যাহু ইনবক্সে নতুন ই-মেইল উপস্থিত হয়েছে
+ Comment[br]=Deuet eo ur postel nevez d'em voest degemer Yahoo
+ Comment[ca]=Ha arribat un nou correu a la vostra bústia de Yahoo
++Comment[ca@valencia]=Ha arribat un nou correu a la vostra bústia de Yahoo
+ Comment[cs]=Přišla nová pošta do vaší Yahoo schránky
+ Comment[da]=Ny e-mail ankom til din Yahoo-indbakke
+ Comment[de]=Eine neue Nachricht befindet sich im Yahoo-Eingangsordner
+@@ -1359,6 +1384,7 @@
+ Name[bn]=এমএসএন মেইল
+ Name[br]=Postel MSN
+ Name[ca]=Correu de MSN
++Name[ca@valencia]=Correu de MSN
+ Name[cs]=MSN pošta
+ Name[cy]=MSN Mail
+ Name[da]=MSN-Mail
+@@ -1415,6 +1441,7 @@
+ Comment[bn]=আপনার এমএসএন ইনবক্সে নতুন ই-মেইল উপস্থিত হয়েছে
+ Comment[br]=Deuet eo ur postel nevez d'em voest degemer MSN
+ Comment[ca]=Ha arribat un nou correu a la vostra bústia de MSN
++Comment[ca@valencia]=Ha arribat un nou correu a la vostra bústia de MSN
+ Comment[cs]=Přišla nová pošta do vaší MSN schránky
+ Comment[da]=Ny e-mail ankom til din MSN-indbakke
+ Comment[de]=Eine neue Nachricht befindet sich im MSN-Eingangsordner
+@@ -1473,6 +1500,7 @@
+ Name[ar]=ICQ تصريح
+ Name[bn]=আই-সি-কিউ প্রাপ্তাধিকার
+ Name[ca]=Autorització ICQ
++Name[ca@valencia]=Autorització ICQ
+ Name[cs]=ICQ autorizace
+ Name[da]=ICQ-godkendelse
+ Name[de]=ICQ-Autorisierung
+@@ -1524,6 +1552,7 @@
+ Comment[ar]=مستخدم ICQ طلب ترخيص أداة تعريف مرسال 
+ Comment[bn]=একজন আই-সি-কিউ ব্যবহারকারী আপনার প্রাপ্তাধিকার অনুরোধ অনুমোদন/প্রত্যাখ্যান করেছে
+ Comment[ca]=Un usuari d'ICQ ha autoritzat/declinat la vostra petició d'autorització
++Comment[ca@valencia]=Un usuari d'ICQ ha autoritzat/declinat la vostra petició d'autorització
+ Comment[cs]=ICQ uživatel vám poskytl/odmítnul požadavek na autorizaci
+ Comment[da]=En ICQ-bruger har godkendt/afslået din godkendelsesforespørgsel
+ Comment[de]=Ein ICQ-Benutzer hat Ihre Autorisierungsanfrage angenommen/abgelehnt
+@@ -1578,6 +1607,7 @@
+ Name[ar]=IRC حدث
+ Name[bn]=আই-আর-সি ঘটনা
+ Name[ca]=Esdeveniment IRC
++Name[ca@valencia]=Esdeveniment IRC
+ Name[cs]=IRC událost
+ Name[da]=IRC-begivenhed
+ Name[de]=IRC-Ereignis
+@@ -1631,6 +1661,7 @@
+ Comment[ar]=حدث IRC وقع
+ Comment[bn]=একটি আই-আর-সি ঘটনা ঘটেছে
+ Comment[ca]=Ha ocorregut un esdeveniment d'IRC
++Comment[ca@valencia]=Ha ocorregut un esdeveniment d'IRC
+ Comment[cs]=Nastala IRC událost
+ Comment[da]=En IRC=begivenhed er opstået
+ Comment[de]=Ein IRC-Ereignis ist aufgetreten
+@@ -1687,6 +1718,7 @@
+ Name[bn]=সংযোগ ত্রুটি
+ Name[br]=Fazi ar gevreadenn
+ Name[ca]=Error de connexió
++Name[ca@valencia]=Error de connexió
+ Name[cs]=Chyba ve spojení
+ Name[da]=Forbindelsesfejl
+ Name[de]=Verbindungsfehler
+@@ -1742,6 +1774,7 @@
+ Comment[ar]=حدث خطأ في الاتصال
+ Comment[bn]=সংযোগে একটি ত্রুটি ঘটেছে
+ Comment[ca]=Hi ha hagut un error al connectar
++Comment[ca@valencia]=Hi ha hagut un error al connectar
+ Comment[cs]=Nastala chyba ve spojení
+ Comment[da]=En fejl i forbindelsen er opstået
+ Comment[de]=Es ist ein Verbindungsfehler aufgetreten
+@@ -1800,6 +1833,7 @@
+ Name[bn]=সংযোগ বিচ্ছিন্ন
+ Name[br]=Kollet eo ar gevreadenn
+ Name[ca]=Connexió perduda
++Name[ca@valencia]=Connexió perduda
+ Name[cs]=Spojení ztraceno
+ Name[cy]=Collwyd Cysylltiad
+ Name[da]=Forbindelse tabt
+@@ -1843,7 +1877,7 @@
+ Name[sr@latin]=Veza izgubljena
+ Name[sv]=Anslutning förlorad
+ Name[tr]=Bağlantı Kesildi
+-Name[uk]=Загублено з'єднання
++Name[uk]=З'єднання розірвано
+ Name[uz]=Ulanish uzildi
+ Name[uz@cyrillic]=Уланиш узилди
+ Name[x-test]=xxConnection Lostxx
+@@ -1853,6 +1887,7 @@
+ Comment=The connection have been lost
+ Comment[ar]=الاتصال فقد
+ Comment[ca]=S'ha perdut la connexió
++Comment[ca@valencia]=S'ha perdut la connexió
+ Comment[cs]=Spojení bylo ztraceno
+ Comment[da]=Forbindelsen er blevet mistet
+ Comment[de]=Die Verbindung ist abgebrochen
+@@ -1905,6 +1940,7 @@
+ Name[bn]=সংযোগ করা গেল না
+ Name[br]=N'hellan ket kevreañ
+ Name[ca]=No es pot connectar
++Name[ca@valencia]=No es pot connectar
+ Name[cs]=Nelze se připojit
+ Name[da]=Kan ikke forbinde
+ Name[de]=Verbindung nicht möglich
+@@ -1958,6 +1994,7 @@
+ Comment[ar]=Kopete لا يستطيع الاتصال بالخدمة
+ Comment[bn]=কপেট সার্ভিসে সংযোগ করতে পারেনি
+ Comment[ca]=El Kopete no pot connectar al servei
++Comment[ca@valencia]=El Kopete no pot connectar al servei
+ Comment[cs]=Kopete se nedokáže připojit ke službě
+ Comment[da]=Kopete kan ikke forbinde til tjenesten
+ Comment[de]=Kopete kann zu diesem Dienst keine Verbindung herstellen
+@@ -2015,6 +2052,7 @@
+ Name[bn]=নেটওয়ার্ক সমস্যা
+ Name[br]=Kudennoù rouedad
+ Name[ca]=Problemes de xarxa
++Name[ca@valencia]=Problemes de xarxa
+ Name[cs]=Problémy se sítí
+ Name[da]=Netværksproblemer
+ Name[de]=Netzwerkprobleme
+@@ -2068,6 +2106,7 @@
+ Comment[ar]=الشبكة تواجه مشاكل
+ Comment[bn]=নেটওয়ার্ক সমস্যা অনুভব করছে
+ Comment[ca]=La xarxa està tenint problemes
++Comment[ca@valencia]=La xarxa està tenint problemes
+ Comment[cs]=Síť má problémy
+ Comment[da]=Netværket har for øjeblikket problemer
+ Comment[de]=Das Netzwerk scheint derzeit gestört zu sein
+@@ -2122,6 +2161,7 @@
+ Name[ar]=خطأ بالخادم داخلي
+ Name[bn]=সার্ভার অভ্যন্তরীন ত্রুটি
+ Name[ca]=Error intern del servidor
++Name[ca@valencia]=Error intern del servidor
+ Name[cs]=Interní chyba serveru
+ Name[da]=Intern fejl i serveren
+ Name[de]=Interner Serverfehler
+@@ -2171,6 +2211,7 @@
+ Comment=An service internal error has occurred
+ Comment[ar]=حدث خطأ داخلي للخدمة
+ Comment[ca]=Hi ha hagut un error intern del servei
++Comment[ca@valencia]=Hi ha hagut un error intern del servei
+ Comment[cs]=Nastala interní chyba služby
+ Comment[da]=En intern fejl for tjenesten er opstået
+ Comment[de]=Bei diesem Dienst ist ein interner Serverfehler aufgetreten.
+@@ -2222,6 +2263,7 @@
+ Name[ar]=بزبز/وكزة
+ Name[bn]=গুঞ্জন/গুঁতো
+ Name[ca]=Truca/Avisa
++Name[ca@valencia]=Truca/Avisa
+ Name[cs]=Štouchanec
+ Name[da]=Opringning/Puf
+ Name[de]=Anstoß/Brummen
+@@ -2272,6 +2314,7 @@
+ Comment[ar]=مراسَل بعث لك بزبز/وكزة
+ Comment[bn]=যোগাযোগ তালিকাভুক্ত একজন আপনাকে একটি গুঞ্জন/গুঁতো পাঠিয়েছে।
+ Comment[ca]=Un contacte us ha enviat una trucada/avís.
++Comment[ca@valencia]=Un contacte vos ha enviat una trucada/avís.
+ Comment[cs]=Osoba vám poslala šťouchanec :-)
+ Comment[da]=En kontakt har sendt dig en buzz/nudge.
+ Comment[de]=Ein Benutzer macht auf sich aufmerksam.
+@@ -2325,6 +2368,7 @@
+ Name=Message Dropped
+ Name[ar]=رسالة ساقطة
+ Name[ca]=Missatge descartat
++Name[ca@valencia]=Missatge descartat
+ Name[cs]=Zpráva zahozena
+ Name[da]=Besked afvist
+ Name[de]=Nachricht verworfen
+@@ -2372,6 +2416,7 @@
+ Comment=A message was filtered by the Privacy Plugin
+ Comment[ar]=رسالة رشّحت بواسطة ملحق الخصوصية
+ Comment[ca]=El connector de privadesa ha filtrat un missatge
++Comment[ca@valencia]=El connector de privadesa ha filtrat un missatge
+ Comment[cs]=Zpráva byla vyřazena modulem pro soukromí
+ Comment[da]=En besked blev filtreret af privatlivspluginet
+ Comment[de]=Das Privatsphäre-Modul hat eine Nachricht gefiltert
+@@ -2422,6 +2467,7 @@
+ Name=ICQ Reading status
+ Name[ar]=ICQ جاري القراءة الحالة
+ Name[ca]=Lectura de l'estat de l'ICQ
++Name[ca@valencia]=Lectura de l'estat de l'ICQ
+ Name[cs]=Stav čtení ICQ
+ Name[da]=ICQ læser status
+ Name[de]=ICQ-Status wird gelesen
+@@ -2469,6 +2515,7 @@
+ Comment=An ICQ user is reading your status message
+ Comment[ar]=ICQ مستخدم يقرأ رسالة الحالة لديك
+ Comment[ca]=Un usuari de l'ICQ està llegint el vostre missatge d'estat
++Comment[ca@valencia]=Un usuari de l'ICQ està llegint el vostre missatge d'estat
+ Comment[cs]=Uživatel ICQ si čte vaši zprávu o stavu
+ Comment[da]=En ICQ-bruger læser din statusbesked
+ Comment[de]=Ein ICQ-Benutzer liest gerade Ihre Statusmeldung
+@@ -2518,6 +2565,7 @@
+ Name=Service Message
+ Name[ar]=خدمة الرسالة
+ Name[ca]=Missatge de servei
++Name[ca@valencia]=Missatge de servei
+ Name[cs]=Služební zpráva
+ Name[da]=Tjenestebesked
+ Name[de]=Dienstmitteilung
+@@ -2563,6 +2611,7 @@
+ Comment=An service message has been received (e.g. authorization request)
+ Comment[ar]=رسالة خدمة استقبلت (مثال : طلب ترخيص)
+ Comment[ca]=S'ha rebut un missatge de servei (p.ex. una petició d'autorització)
++Comment[ca@valencia]=S'ha rebut un missatge de servei (p.ex. una petició d'autorització)
+ Comment[cs]=Byla obdržena služební zpráva (např. požadavek na autorizaci)
+ Comment[da]=En tjenestebesked er blevet modtaget (f.eks. godkendelsesforespørgsel)
+ Comment[de]=Eine Dienstmitteilung wurde empfangen (z. B. Autorisierungsanfrage)
+diff -Nur kdenetwork-4.3.4/kopete/libkopete/avdevice/videodevice.cpp kdenetwork-4.3.5/kopete/libkopete/avdevice/videodevice.cpp
+--- kdenetwork-4.3.4/kopete/libkopete/avdevice/videodevice.cpp	2009-04-05 22:01:01.000000000 +0200
++++ kdenetwork-4.3.5/kopete/libkopete/avdevice/videodevice.cpp	2010-01-21 21:48:46.000000000 +0100
+@@ -1047,6 +1047,12 @@
+ 					(uint) m_rawbuffers.size() <= v4l2buffer.index)
+ 					return EXIT_FAILURE;
+ 
++				if (m_rawbuffers[v4l2buffer.index].length < m_currentbuffer.data.size())
++				{
++					kDebug() <<  "Buffer size mismatch: expecting raw buffer length to be" << m_currentbuffer.data.size() << "but it was" << m_rawbuffers[v4l2buffer.index].length;
++					return EXIT_FAILURE;
++				}
++
+ 				memcpy(&m_currentbuffer.data[0], m_rawbuffers[v4l2buffer.index].start, m_currentbuffer.data.size());
+ 				if (-1 == xioctl (VIDIOC_QBUF, &v4l2buffer))
+ 					return errnoReturn ("VIDIOC_QBUF");
+diff -Nur kdenetwork-4.3.4/kopete/libkopete/kopeteplugin.desktop kdenetwork-4.3.5/kopete/libkopete/kopeteplugin.desktop
+--- kdenetwork-4.3.4/kopete/libkopete/kopeteplugin.desktop	2009-10-30 13:31:14.000000000 +0100
++++ kdenetwork-4.3.5/kopete/libkopete/kopeteplugin.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -8,6 +8,7 @@
+ Comment[bn]=কপেট প্লাগিন
+ Comment[br]=Lugent Kopete
+ Comment[ca]=Connector del Kopete
++Comment[ca@valencia]=Connector del Kopete
+ Comment[cs]=Modul aplikace Kopete
+ Comment[cy]=Ategyn Kopete
+ Comment[da]=Kopete-plugin
+@@ -58,7 +59,7 @@
+ Comment[ta]=Kopete செருகல்
+ Comment[tg]=Модули Kopete 
+ Comment[tr]=Kopete Eklentisi
+-Comment[uk]=Втулок Kopete
++Comment[uk]=Додаток до Kopete
+ Comment[uz]=Kopete plagini
+ Comment[uz@cyrillic]=Kopete плагини
+ Comment[vi]=Phần bổ sung Kopete
+diff -Nur kdenetwork-4.3.4/kopete/libkopete/kopeteprotocol.desktop kdenetwork-4.3.5/kopete/libkopete/kopeteprotocol.desktop
+--- kdenetwork-4.3.4/kopete/libkopete/kopeteprotocol.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/libkopete/kopeteprotocol.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -8,6 +8,7 @@
+ Comment[bn]=কপেট প্রোটোকল প্লাগিন
+ Comment[br]=Lugent komenad Kopete
+ Comment[ca]=Connector de protocol per al Kopete
++Comment[ca@valencia]=Connector de protocol per al Kopete
+ Comment[cs]=Modul protokolu aplikace Kopete
+ Comment[cy]=Ategyn Protocol Kopete
+ Comment[da]=Kopete-protokol-plugin
+@@ -58,7 +59,7 @@
+ Comment[ta]=Kopete விதிமுறை செருகல்
+ Comment[tg]=Модули Қарордоди Kopete 
+ Comment[tr]=Kopete İletişim Kuralı Eklentisi
+-Comment[uk]=Втулок протоколу для Kopete
++Comment[uk]=Додаток протоколу для Kopete
+ Comment[vi]=Phần bổ sung giao thức Kopete
+ Comment[wa]=Tchôke-divins di protocole po Kopete
+ Comment[x-test]=xxKopete Protocol Pluginxx
+diff -Nur kdenetwork-4.3.4/kopete/libkopete/kopeteui.desktop kdenetwork-4.3.5/kopete/libkopete/kopeteui.desktop
+--- kdenetwork-4.3.4/kopete/libkopete/kopeteui.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/libkopete/kopeteui.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -7,6 +7,7 @@
+ Comment[bg]=Приставка за графичния интерфейс на Kopete
+ Comment[bn]=একটি কপেট ইউ-আই প্লাগিন
+ Comment[ca]=Un connector de IU per al Kopete
++Comment[ca@valencia]=Un connector d'IU per al Kopete
+ Comment[cs]=Modul rozhraní aplikace Kopete
+ Comment[cy]=Ategyn UI Kopete
+ Comment[da]=En Kopete UI-plugin
+@@ -57,7 +58,7 @@
+ Comment[ta]=ஒரு Kopete UI செருகல்
+ Comment[tg]=Модули Интерфейси Корвандии Kopete
+ Comment[tr]=Bir Kopete UI Eklentisi
+-Comment[uk]=Втулок інтерфейсу для Kopete
++Comment[uk]=Додаток інтерфейсу для Kopete
+ Comment[vi]=Phần bổ sung giao diện người dùng Kopete
+ Comment[wa]=On tchôke-divins d' eterface grafike po Kopete
+ Comment[x-test]=xxA Kopete UI Pluginxx
+diff -Nur kdenetwork-4.3.4/kopete/plugins/addbookmarks/kopete_addbookmarks_config.desktop kdenetwork-4.3.5/kopete/plugins/addbookmarks/kopete_addbookmarks_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/addbookmarks/kopete_addbookmarks_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/addbookmarks/kopete_addbookmarks_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bn]=বুকমার্ক
+ Name[br]=Sinedoù
+ Name[ca]=Punts
++Name[ca@valencia]=Punts
+ Name[cs]=Záložky
+ Name[cy]=Nodau Tudalen
+ Name[da]=Bogmærker
+@@ -71,6 +72,7 @@
+ Comment[bg]=Автоматично добавяне на връзките във входящите съобщения към отметките
+ Comment[bn]=অন্তর্মুখী বার্তামধ্যস্থ লিঙ্কগুলো স্বয়ংক্রীয়ভাবে বুকমার্ক করে
+ Comment[ca]=Apunta automàticaments els enllaços en els missatges entrants
++Comment[ca@valencia]=Apunta automàticaments els enllaços en els missatges entrants
+ Comment[cs]=Automaticky přidat do záložek odkazy z příchozích zpráv
+ Comment[da]=Sæt link til indkommende breve automatisk
+ Comment[de]=Verknüpfungen in eingehenden Nachrichten automatisch als Lesezeichen ablegen
+@@ -112,7 +114,7 @@
+ Comment[ro]=Pune automat semn de carte la legăturile din mesajele de intrare
+ Comment[ru]=Автоматическое добавление ссылок из входных сообщений в закладки
+ Comment[sk]=Automaticky vytvorí záložky odkazov v prichádzajúcich správach
+-Comment[sl]=Samodejno doda povezave v prihajajočih sporočilih med zaznamke
++Comment[sl]=Samodejno doda povezave iz prejetih sporočilih med zaznamke
+ Comment[sr]=Аутоматски маркирај везе у долазним порукама
+ Comment[sr@latin]=Automatski markiraj veze u dolaznim porukama
+ Comment[sv]=Bokmärk automatiskt länkar i inkommande meddelande.
+diff -Nur kdenetwork-4.3.4/kopete/plugins/addbookmarks/kopete_addbookmarks.desktop kdenetwork-4.3.5/kopete/plugins/addbookmarks/kopete_addbookmarks.desktop
+--- kdenetwork-4.3.4/kopete/plugins/addbookmarks/kopete_addbookmarks.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/addbookmarks/kopete_addbookmarks.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -6,6 +6,7 @@
+ Name[bn]=বুকমার্ক
+ Name[br]=Sinedoù
+ Name[ca]=Punts
++Name[ca@valencia]=Punts
+ Name[cs]=Záložky
+ Name[cy]=Nodau Tudalen
+ Name[da]=Bogmærker
+@@ -71,6 +72,7 @@
+ Comment[bg]=Автоматично добавяне на връзките във входящите съобщения към отметките
+ Comment[bn]=অন্তর্মুখী বার্তামধ্যস্থ লিঙ্কগুলো স্বয়ংক্রীয়ভাবে বুকমার্ক করে
+ Comment[ca]=Apunta automàticaments els enllaços en els missatges entrants
++Comment[ca@valencia]=Apunta automàticaments els enllaços en els missatges entrants
+ Comment[cs]=Automaticky přidat do záložek odkazy z příchozích zpráv
+ Comment[da]=Sæt link til indkommende breve automatisk
+ Comment[de]=Verknüpfungen in eingehenden Nachrichten automatisch als Lesezeichen ablegen
+@@ -112,7 +114,7 @@
+ Comment[ro]=Pune automat semn de carte la legăturile din mesajele de intrare
+ Comment[ru]=Автоматическое добавление ссылок из входных сообщений в закладки
+ Comment[sk]=Automaticky vytvorí záložky odkazov v prichádzajúcich správach
+-Comment[sl]=Samodejno doda povezave v prihajajočih sporočilih med zaznamke
++Comment[sl]=Samodejno doda povezave iz prejetih sporočilih med zaznamke
+ Comment[sr]=Аутоматски маркирај везе у долазним порукама
+ Comment[sr@latin]=Automatski markiraj veze u dolaznim porukama
+ Comment[sv]=Bokmärk automatiskt länkar i inkommande meddelande.
+diff -Nur kdenetwork-4.3.4/kopete/plugins/alias/kopete_alias_config.desktop kdenetwork-4.3.5/kopete/plugins/alias/kopete_alias_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/alias/kopete_alias_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/alias/kopete_alias_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name[bn]=ছদ্মনাম
+ Name[br]=Lesanv
+ Name[ca]=Àlies
++Name[ca@valencia]=Àlies
+ Name[cs]=Alias
+ Name[cy]=Ffugenw
+ Name[da]=Alias
+@@ -77,6 +78,7 @@
+ Comment[bg]=Приставка за добавяне на запазени думи, при въвеждането на които ще се изпълняват зададени команди
+ Comment[bn]=কম্যান্ডের জন্য স্বনির্বাচিত ছদ্মনাম যোগ করে
+ Comment[ca]=Afegeix àlies personalitzats als vostres comandaments
++Comment[ca@valencia]=Afig àlies personalitzats als vostres comandaments
+ Comment[cs]=Přidává vlastní přezdívky pro příkazy
+ Comment[cy]=Ychwanegu ffugenwau addasiedig ar gyfer gorchmynion
+ Comment[da]=Tilføj personligt alias for kommandoer
+diff -Nur kdenetwork-4.3.4/kopete/plugins/alias/kopete_alias.desktop kdenetwork-4.3.5/kopete/plugins/alias/kopete_alias.desktop
+--- kdenetwork-4.3.4/kopete/plugins/alias/kopete_alias.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/alias/kopete_alias.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=ছদ্মনাম
+ Name[br]=Lesanv
+ Name[ca]=Àlies
++Name[ca@valencia]=Àlies
+ Name[cs]=Alias
+ Name[cy]=Ffugenw
+ Name[da]=Alias
+@@ -82,6 +83,7 @@
+ Comment[bg]=Приставка за добавяне на запазени думи, при въвеждането на които ще се изпълняват зададени команди
+ Comment[bn]=কম্যান্ডের জন্য স্বনির্বাচিত ছদ্মনাম যোগ করে
+ Comment[ca]=Afegeix àlies personalitzats als vostres comandaments
++Comment[ca@valencia]=Afig àlies personalitzats als vostres comandaments
+ Comment[cs]=Přidává vlastní přezdívky pro příkazy
+ Comment[cy]=Ychwanegu ffugenwau addasiedig ar gyfer gorchmynion
+ Comment[da]=Tilføj personligt alias for kommandoer
+diff -Nur kdenetwork-4.3.4/kopete/plugins/autoreplace/kopete_autoreplace_config.desktop kdenetwork-4.3.5/kopete/plugins/autoreplace/kopete_autoreplace_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/autoreplace/kopete_autoreplace_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/autoreplace/kopete_autoreplace_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -12,6 +12,7 @@
+ Name[bg]=Автоматична замяна
+ Name[bn]=স্বয়ংক্রীয় প্রতিস্থাপন
+ Name[ca]=Auto-substitució
++Name[ca@valencia]=Auto-substitució
+ Name[cs]=Automatické nahrazení
+ Name[cy]=Hunan-Amnewid
+ Name[da]=Auto-erstat
+@@ -76,6 +77,7 @@
+ Comment[bg]=Приставка за автоматична замяна на текст в съобщенията
+ Comment[bn]=স্বয়ংক্রীয়ভাবে প্রতিস্থাপন করে কিছু টেক্সট যা আপনি বেছে নিতে পারেন
+ Comment[ca]=Auto-substitueix algun text que podreu escollir
++Comment[ca@valencia]=Auto-substitueix algun text que podreu escollir
+ Comment[cs]=Automaticky nahrazuje zvolený text
+ Comment[cy]=Hunan-amnewid testun y gallwch ei ddewis
+ Comment[da]=Autoerstatter noget tekst du kan vælge
+diff -Nur kdenetwork-4.3.4/kopete/plugins/autoreplace/kopete_autoreplace.desktop kdenetwork-4.3.5/kopete/plugins/autoreplace/kopete_autoreplace.desktop
+--- kdenetwork-4.3.4/kopete/plugins/autoreplace/kopete_autoreplace.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/autoreplace/kopete_autoreplace.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -18,6 +18,7 @@
+ Name[bg]=Автоматична замяна
+ Name[bn]=স্বয়ংক্রীয় প্রতিস্থাপন
+ Name[ca]=Auto-substitució
++Name[ca@valencia]=Auto-substitució
+ Name[cs]=Automatické nahrazení
+ Name[cy]=Hunan-Amnewid
+ Name[da]=Auto-erstat
+@@ -82,6 +83,7 @@
+ Comment[bg]=Приставка за автоматична замяна на текст в съобщенията
+ Comment[bn]=স্বয়ংক্রীয়ভাবে প্রতিস্থাপন করে কিছু টেক্সট যা আপনি বেছে নিতে পারেন
+ Comment[ca]=Auto-substitueix algun text que podreu escollir
++Comment[ca@valencia]=Auto-substitueix algun text que podreu escollir
+ Comment[cs]=Automaticky nahrazuje zvolený text
+ Comment[cy]=Hunan-amnewid testun y gallwch ei ddewis
+ Comment[da]=Autoerstatter noget tekst du kan vælge
+diff -Nur kdenetwork-4.3.4/kopete/plugins/contactnotes/kopete_contactnotes.desktop kdenetwork-4.3.5/kopete/plugins/contactnotes/kopete_contactnotes.desktop
+--- kdenetwork-4.3.4/kopete/plugins/contactnotes/kopete_contactnotes.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/contactnotes/kopete_contactnotes.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=যোগাযোগ নোট
+ Name[br]=Notennoù an darempred
+ Name[ca]=Notes del contacte
++Name[ca@valencia]=Notes del contacte
+ Name[cs]=Poznámky ke kontaktu
+ Name[cy]=Nodiadau Cysylltiad
+ Name[da]=Kontaktnoter
+@@ -79,6 +80,7 @@
+ Comment[bg]=Добавяне и редактиране на бележки и коментари към контактите
+ Comment[bn]=আপনার যোগাযোগে ব্যক্তিগত নোট যোগ করুন
+ Comment[ca]=Afegeix notes personals als vostres contactes
++Comment[ca@valencia]=Afig notes personals als vostres contactes
+ Comment[cs]=Osobní poznámky ke kontaktům
+ Comment[cy]=Ychwanegu nodiadau personol ynglyn â'ch cysylltiadau
+ Comment[da]=Tilføj personlige noter om dine kontakter
+diff -Nur kdenetwork-4.3.4/kopete/plugins/highlight/kopete_highlight_config.desktop kdenetwork-4.3.5/kopete/plugins/highlight/kopete_highlight_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/highlight/kopete_highlight_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/highlight/kopete_highlight_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -13,6 +13,7 @@
+ Name[bn]=গুরুত্বপূর্ণ
+ Name[br]=Splannadur
+ Name[ca]=Ressaltat
++Name[ca@valencia]=Ressaltat
+ Name[cs]=Zvýraznění
+ Name[cy]=Amlygu
+ Name[da]=Fremhæv
+@@ -76,6 +77,7 @@
+ Comment[bg]=Открояване на текст в съобщенията на базата на ключови думи
+ Comment[bn]=ফিল্টারের ওপর ভিত্তি করে টেক্সট প্রজ্জ্বল করে
+ Comment[ca]=Ressalta el text basant-se en filtres
++Comment[ca@valencia]=Ressalta el text basant-se en filtres
+ Comment[cs]=Zvýraznit text podle filtrů
+ Comment[cy]=Amlygu testun ar sail hidlau
+ Comment[da]=Fremhæv tekst baseret på filtre
+diff -Nur kdenetwork-4.3.4/kopete/plugins/highlight/kopete_highlight.desktop kdenetwork-4.3.5/kopete/plugins/highlight/kopete_highlight.desktop
+--- kdenetwork-4.3.4/kopete/plugins/highlight/kopete_highlight.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/highlight/kopete_highlight.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=গুরুত্বপূর্ণ
+ Name[br]=Splannadur
+ Name[ca]=Ressaltat
++Name[ca@valencia]=Ressaltat
+ Name[cs]=Zvýraznění
+ Name[cy]=Amlygu
+ Name[da]=Fremhæv
+@@ -82,6 +83,7 @@
+ Comment[bg]=Открояване на съобщения
+ Comment[bn]=বার্তা প্রজ্জ্বলন
+ Comment[ca]=Missatges a ressaltar
++Comment[ca@valencia]=Missatges a ressaltar
+ Comment[cs]=Zvýraznit zprávy
+ Comment[cy]=Amlygu negeseuon
+ Comment[da]=Fremhæv beskeder
+diff -Nur kdenetwork-4.3.4/kopete/plugins/history/kopete_history_config.desktop kdenetwork-4.3.5/kopete/plugins/history/kopete_history_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/history/kopete_history_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/history/kopete_history_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name[bn]=ইতিহাস
+ Name[br]=Istor
+ Name[ca]=Historial
++Name[ca@valencia]=Historial
+ Name[cs]=Historie
+ Name[cy]=Hanes
+ Name[da]=Historik
+@@ -83,6 +84,7 @@
+ Comment[bn]=ইতিহাস প্লাগিন
+ Comment[br]=Lugent an istorig
+ Comment[ca]=Connector de l'historial
++Comment[ca@valencia]=Connector de l'historial
+ Comment[cs]=Modul historie
+ Comment[cy]=Ategyn Hanes
+ Comment[da]=Historik-plugin
+@@ -133,7 +135,7 @@
+ Comment[ta]=வரலாற்று செருகல்
+ Comment[tg]=Модули Номнависи сӯҳбатҳо
+ Comment[tr]=Geçmiş Eklentisi
+-Comment[uk]=Втулок історії
++Comment[uk]=Додаток історії
+ Comment[uz]=Tarix plagini
+ Comment[uz@cyrillic]=Тарих плагини
+ Comment[vi]=Phần bổ sung lịch sử
+diff -Nur kdenetwork-4.3.4/kopete/plugins/history/kopete_history.desktop kdenetwork-4.3.5/kopete/plugins/history/kopete_history.desktop
+--- kdenetwork-4.3.4/kopete/plugins/history/kopete_history.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/history/kopete_history.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=ইতিহাস
+ Name[br]=Istor
+ Name[ca]=Historial
++Name[ca@valencia]=Historial
+ Name[cs]=Historie
+ Name[cy]=Hanes
+ Name[da]=Historik
+@@ -87,6 +88,7 @@
+ Comment[bg]=Запис на всички съобщения с цел преглед и търсене в тях в бъдеще
+ Comment[bn]=আপনার কথোপকথনের খতিয়ান রাখতে সব বার্তা কার্যবিবরণীতে লিখে রাখে
+ Comment[ca]=Registra tots els missatges per seguir les vostres converses
++Comment[ca@valencia]=Registra tots els missatges per seguir les vostres converses
+ Comment[cs]=Záznam konverzace
+ Comment[cy]=Cofnodi pob neges er mwyn cadw trefn ar eich sgwrsiau
+ Comment[da]=Log alle beskeder for at holde styr på dine konversationer
+diff -Nur kdenetwork-4.3.4/kopete/plugins/latex/kopete_latex_config.desktop kdenetwork-4.3.5/kopete/plugins/latex/kopete_latex_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/latex/kopete_latex_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/latex/kopete_latex_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -13,6 +13,7 @@
+ Name[bn]=কপেটেক
+ Name[br]=KopeTeX
+ Name[ca]=KopeTeX
++Name[ca@valencia]=KopeTeX
+ Name[cs]=KopeTeX
+ Name[da]=KopeTeX
+ Name[de]=KopeTeX
+diff -Nur kdenetwork-4.3.4/kopete/plugins/latex/kopete_latex.desktop kdenetwork-4.3.5/kopete/plugins/latex/kopete_latex.desktop
+--- kdenetwork-4.3.4/kopete/plugins/latex/kopete_latex.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/latex/kopete_latex.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -16,6 +16,7 @@
+ Name=KopeteTeX
+ Name[ar]=KopeteTex
+ Name[ca]=KopeteTeX
++Name[ca@valencia]=KopeteTeX
+ Name[cs]=KopeteTeX
+ Name[da]=KopeteTeX
+ Name[de]=KopeteTeX
+@@ -63,6 +64,7 @@
+ Comment[bg]=Показване на формули на Latex в прозореца за чат
+ Comment[bn]=চ্যাট উইন্ডোতে লেটেক ফর্মূলা প্রদর্শন করে
+ Comment[ca]=Representa fórmules Latex a la finestra de xat
++Comment[ca@valencia]=Representa fórmules Latex a la finestra de xat
+ Comment[cs]=Vykresluje vzorce LaTeXu v okně rozhovoru
+ Comment[da]=Viser LaTeX-formler i chat-vinduet
+ Comment[de]=Ermöglicht Latex-Formeln in einem Chat-Fenster
+@@ -106,7 +108,7 @@
+ Comment[sk]=Zobrazovanie výrazov Latex v okne rozhovoru
+ Comment[sl]=Izris formul LaTeX v oknu za klepet
+ Comment[sr]=Исписује латех формуле у прозору за ћаскање
+-Comment[sr@latin]=Ispisuje latex formule u prozoru za ćaskanje
++Comment[sr@latin]=Ispisuje LaTeX formule u prozoru za ćaskanje
+ Comment[sv]=Visa Latex-formler i chattfönstret
+ Comment[ta]= Render Latex formulas in the chatwindow
+ Comment[tg]=Формулаҳои Render Latex дар тирезаи чат
+diff -Nur kdenetwork-4.3.4/kopete/plugins/nowlistening/kopete_nowlistening_config.desktop kdenetwork-4.3.5/kopete/plugins/nowlistening/kopete_nowlistening_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/nowlistening/kopete_nowlistening_config.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/nowlistening/kopete_nowlistening_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -13,6 +13,7 @@
+ Name[bg]=Инфо за песен
+ Name[bn]=এখন শুনছেন
+ Name[ca]=Ara s'escolta
++Name[ca@valencia]=Ara s'escolta
+ Name[cs]=Nyní poslouchám
+ Name[cy]=Rwan yn Gwrando ar
+ Name[da]=Lytter nu
+@@ -75,6 +76,7 @@
+ Comment[bg]=Приставка за информиране на приятелите какво слушате
+ Comment[bn]=আপনার বন্ধুদের বলে আপনি কি শুনছেন
+ Comment[ca]=Li diu als vostres companys què esteu escoltant
++Comment[ca@valencia]=Li diu als vostres companys què esteu escoltant
+ Comment[cs]=Sdělí vašim kamarádům, co právě posloucháte
+ Comment[cy]=Dweud wrth eich cyfeillion be y gwrandwch arnodd
+ Comment[da]=Fortæller dine venner hvad du lytter til
+diff -Nur kdenetwork-4.3.4/kopete/plugins/nowlistening/kopete_nowlistening.desktop kdenetwork-4.3.5/kopete/plugins/nowlistening/kopete_nowlistening.desktop
+--- kdenetwork-4.3.4/kopete/plugins/nowlistening/kopete_nowlistening.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/nowlistening/kopete_nowlistening.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -18,6 +18,7 @@
+ Name[bg]=Инфо за песен
+ Name[bn]=এখন শুনছেন
+ Name[ca]=Ara s'escolta
++Name[ca@valencia]=Ara s'escolta
+ Name[cs]=Nyní poslouchám
+ Name[cy]=Rwan yn Gwrando ar
+ Name[da]=Lytter nu
+@@ -80,6 +81,7 @@
+ Comment[bg]=Приставка за информиране на приятелите какво слушате
+ Comment[bn]=আপনার বন্ধুদের বলে আপনি কি শুনছেন
+ Comment[ca]=Li diu als vostres companys què esteu escoltant
++Comment[ca@valencia]=Li diu als vostres companys què esteu escoltant
+ Comment[cs]=Sdělí vašim kamarádům, co právě posloucháte
+ Comment[cy]=Dweud wrth eich cyfeillion be y gwrandwch arnodd
+ Comment[da]=Fortæller dine venner hvad du lytter til
+diff -Nur kdenetwork-4.3.4/kopete/plugins/otr/kopete_otr_config.desktop kdenetwork-4.3.5/kopete/plugins/otr/kopete_otr_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/otr/kopete_otr_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/otr/kopete_otr_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -11,6 +11,7 @@
+ Comment=Encrypt chat sessions with Off-The-Record encryption
+ Comment[ar]=شفر جلسة الدردشة بـ تعطيل-التسجيل المشفر
+ Comment[ca]=Encripta les sessions de xat amb un xifrat «Off-The-Record»
++Comment[ca@valencia]=Encripta les sessions de xat amb un xifrat «Off-The-Record»
+ Comment[cs]=Šifrovat rozhovory pomocí OTR
+ Comment[da]=Kryptér chatsessioner med 'uofficielt'-kryptering
+ Comment[de]=Chatsitzung mit Off-The-Record-Verschlüsselung sichern
+@@ -53,6 +54,7 @@
+ Name=OTR
+ Name[ar]=OTR
+ Name[ca]=OTR
++Name[ca@valencia]=OTR
+ Name[cs]=OTR
+ Name[da]=OTR
+ Name[de]=OTR
+diff -Nur kdenetwork-4.3.4/kopete/plugins/otr/kopete_otr.desktop kdenetwork-4.3.5/kopete/plugins/otr/kopete_otr.desktop
+--- kdenetwork-4.3.4/kopete/plugins/otr/kopete_otr.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/otr/kopete_otr.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -16,6 +16,7 @@
+ Comment=Encrypt chat sessions with Off-The-Record encryption
+ Comment[ar]=شفر جلسة الدردشة بـ تعطيل-التسجيل المشفر
+ Comment[ca]=Encripta les sessions de xat amb un xifrat «Off-The-Record»
++Comment[ca@valencia]=Encripta les sessions de xat amb un xifrat «Off-The-Record»
+ Comment[cs]=Šifrovat rozhovory pomocí OTR
+ Comment[da]=Kryptér chatsessioner med 'uofficielt'-kryptering
+ Comment[de]=Chatsitzung mit Off-The-Record-Verschlüsselung sichern
+@@ -58,6 +59,7 @@
+ Name=OTR
+ Name[ar]=OTR
+ Name[ca]=OTR
++Name[ca@valencia]=OTR
+ Name[cs]=OTR
+ Name[da]=OTR
+ Name[de]=OTR
+diff -Nur kdenetwork-4.3.4/kopete/plugins/pipes/kopete_pipes_config.desktop kdenetwork-4.3.5/kopete/plugins/pipes/kopete_pipes_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/pipes/kopete_pipes_config.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/pipes/kopete_pipes_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -11,6 +11,7 @@
+ Name=Pipes
+ Name[ar]=أنابيب
+ Name[ca]=Canonades
++Name[ca@valencia]=Canonades
+ Name[cs]=Roury
+ Name[da]=Pipes
+ Name[de]=Umleitungen
+@@ -55,6 +56,7 @@
+ Comment=Pipe messages through an external program or script
+ Comment[ar]=استخلص الرسائل عن طريق برنامج أو سكريبت خارجي
+ Comment[ca]=Condueix els missatges cap a un programa extern o un script
++Comment[ca@valencia]=Condueix els missatges cap a un programa extern o un script
+ Comment[cs]=Předat zprávy pomocí roury do externího programu nebo skriptu
+ Comment[da]=Videreled beskeder gennem et eksternt program eller script
+ Comment[de]=Mitteilungen durch ein externes Programm/Skript leiten
+diff -Nur kdenetwork-4.3.4/kopete/plugins/pipes/kopete_pipes.desktop kdenetwork-4.3.5/kopete/plugins/pipes/kopete_pipes.desktop
+--- kdenetwork-4.3.4/kopete/plugins/pipes/kopete_pipes.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/pipes/kopete_pipes.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -16,6 +16,7 @@
+ Name=Pipes
+ Name[ar]=أنابيب
+ Name[ca]=Canonades
++Name[ca@valencia]=Canonades
+ Name[cs]=Roury
+ Name[da]=Pipes
+ Name[de]=Umleitungen
+@@ -60,6 +61,7 @@
+ Comment=Pipe messages through an external program or script
+ Comment[ar]=استخلص الرسائل عن طريق برنامج أو سكريبت خارجي
+ Comment[ca]=Condueix els missatges cap a un programa extern o un script
++Comment[ca@valencia]=Condueix els missatges cap a un programa extern o un script
+ Comment[cs]=Předat zprávy pomocí roury do externího programu nebo skriptu
+ Comment[da]=Videreled beskeder gennem et eksternt program eller script
+ Comment[de]=Mitteilungen durch ein externes Programm/Skript leiten
+diff -Nur kdenetwork-4.3.4/kopete/plugins/privacy/kopete_privacy_config.desktop kdenetwork-4.3.5/kopete/plugins/privacy/kopete_privacy_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/privacy/kopete_privacy_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/privacy/kopete_privacy_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -11,6 +11,7 @@
+ Name[ar]=الخصوصية
+ Name[bg]=Поверителност
+ Name[ca]=Privadesa
++Name[ca@valencia]=Privadesa
+ Name[cs]=Soukromí
+ Name[da]=Privatliv
+ Name[de]=Privatsphäre
+@@ -63,6 +64,7 @@
+ Comment[ar]=ملحق الخصوصية
+ Comment[bg]=Приставка за поверителност
+ Comment[ca]=Connector de privacitat
++Comment[ca@valencia]=Connector de privacitat
+ Comment[cs]=Modul soukromí
+ Comment[da]=Privatlivs-plugin
+ Comment[de]=Privatsphäre-Modul
+@@ -105,7 +107,7 @@
+ Comment[sr@latin]=Priključak za privatnost
+ Comment[sv]=Integritetsinsticksprogram
+ Comment[tr]=Gizlilik Eklentisi
+-Comment[uk]=Втулок конфіденційності
++Comment[uk]=Додаток конфіденційності
+ Comment[vi]=Phần bổ sung riêng tư
+ Comment[x-test]=xxPrivacy Pluginxx
+ Comment[zh_CN]=隐私插件
+diff -Nur kdenetwork-4.3.4/kopete/plugins/privacy/kopete_privacy.desktop kdenetwork-4.3.5/kopete/plugins/privacy/kopete_privacy.desktop
+--- kdenetwork-4.3.4/kopete/plugins/privacy/kopete_privacy.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/privacy/kopete_privacy.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -17,6 +17,7 @@
+ Name[ar]=الخصوصية
+ Name[bg]=Поверителност
+ Name[ca]=Privadesa
++Name[ca@valencia]=Privadesa
+ Name[cs]=Soukromí
+ Name[da]=Privatliv
+ Name[de]=Privatsphäre
+@@ -69,6 +70,7 @@
+ Comment[ar]=رشح الرسائل الواردة
+ Comment[bg]=Филтриране на входящите съобщения
+ Comment[ca]=Filtra els missatges entrants
++Comment[ca@valencia]=Filtra els missatges entrants
+ Comment[cs]=Filtruje příchozí zprávy
+ Comment[da]=Filtrerer indkommende beskeder
+ Comment[de]=Filtert eingehende Nachrichten
+@@ -107,7 +109,7 @@
+ Comment[pt_BR]=Filtrar mensagens recebidas
+ Comment[ro]=Filtreză mesajele de intrare
+ Comment[ru]=Фильтрация входящих сообщений
+-Comment[sl]=Filtrira prihajajoča sporočila
++Comment[sl]=Filtrira prejeta sporočila
+ Comment[sr]=Филтрира долазне поруке
+ Comment[sr@latin]=Filtrira dolazne poruke
+ Comment[sv]=Filtrerar inkommande meddelanden
+diff -Nur kdenetwork-4.3.4/kopete/plugins/statistics/kopete_statistics.desktop kdenetwork-4.3.5/kopete/plugins/statistics/kopete_statistics.desktop
+--- kdenetwork-4.3.4/kopete/plugins/statistics/kopete_statistics.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/statistics/kopete_statistics.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=পরিসংখ্যান
+ Name[br]=Stadegoù
+ Name[ca]=Estadístiques
++Name[ca@valencia]=Estadístiques
+ Name[cs]=Statistika
+ Name[cy]=Ystadegau
+ Name[da]=Statistik
+@@ -81,6 +82,7 @@
+ Comment[bg]=Приставка за обобщаваща статистика
+ Comment[bn]=কিছু অর্থপূর্ণ পরিসংখ্যান সমবেত করে
+ Comment[ca]=Reuneix algunes estadístiques significactives
++Comment[ca@valencia]=Reuneix algunes estadístiques significactives
+ Comment[cs]=Shromažďuje užitečné statistiky
+ Comment[da]=Indsamling af noget meningsfuld statistik
+ Comment[de]=Einige aussagekräftige Statistiken sammeln
+diff -Nur kdenetwork-4.3.4/kopete/plugins/texteffect/kopete_texteffect_config.desktop kdenetwork-4.3.5/kopete/plugins/texteffect/kopete_texteffect_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/texteffect/kopete_texteffect_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/texteffect/kopete_texteffect_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -12,6 +12,7 @@
+ Name[bg]=Текстови ефекти
+ Name[bn]=টেক্সট প্রভাব
+ Name[ca]=Efecte de text
++Name[ca@valencia]=Efecte de text
+ Name[cs]=Textový efekt
+ Name[cy]=Effaith Testun
+ Name[da]=Teksteffekt
+@@ -75,6 +76,7 @@
+ Comment[bg]=Добавяне на текстови ефекти към съобщенията
+ Comment[bn]=আপনার টেক্সটে বিশেষ প্রভাব যোগ করে
+ Comment[ca]=Afegeix bonics efectes al vostre text
++Comment[ca@valencia]=Afig bonics efectes al vostre text
+ Comment[cs]=Přidává speciální efekty do vašeho textu
+ Comment[cy]=Ychwanegu effeithiau arbennig i'ch testun
+ Comment[da]=Tilføj specielle effekter til din tekst
+diff -Nur kdenetwork-4.3.4/kopete/plugins/texteffect/kopete_texteffect.desktop kdenetwork-4.3.5/kopete/plugins/texteffect/kopete_texteffect.desktop
+--- kdenetwork-4.3.4/kopete/plugins/texteffect/kopete_texteffect.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/texteffect/kopete_texteffect.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -18,6 +18,7 @@
+ Name[bg]=Текстови ефекти
+ Name[bn]=টেক্সট প্রভাব
+ Name[ca]=Efecte de text
++Name[ca@valencia]=Efecte de text
+ Name[cs]=Textový efekt
+ Name[cy]=Effaith Testun
+ Name[da]=Teksteffekt
+@@ -81,6 +82,7 @@
+ Comment[bg]=Добавяне на текстови ефекти към съобщенията
+ Comment[bn]=আপনার বার্তাতে সুন্দর প্রভাব যোগ করে
+ Comment[ca]=Afegeix bonics efectes als vostres missatges
++Comment[ca@valencia]=Afig bonics efectes als vostres missatges
+ Comment[cs]=Přidává efekty ke zprávám
+ Comment[cy]=Ychwanegu effeithiau del i'ch negeseuon
+ Comment[da]=Tilføj rare effekter til dine beskeder
+diff -Nur kdenetwork-4.3.4/kopete/plugins/translator/kopete_translator_config.desktop kdenetwork-4.3.5/kopete/plugins/translator/kopete_translator_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/translator/kopete_translator_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/translator/kopete_translator_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -14,6 +14,7 @@
+ Name[bn]=অনুবাদক
+ Name[br]=Troer
+ Name[ca]=Traductor
++Name[ca@valencia]=Traductor
+ Name[cs]=Překladač
+ Name[cy]=Cyfieithydd
+ Name[da]=Oversætter
+@@ -81,6 +82,7 @@
+ Comment[bg]=Приставка за превод от един език на друг в реално време
+ Comment[bn]=আপনার স্থানীয় ভাষা থেকে অন্য একটি ভাষাতে বার্তা অনুবাদ করে
+ Comment[ca]=Tradueix els missatges des del vostre idioma natiu cap a un altre
++Comment[ca@valencia]=Tradueix els missatges des del vostre idioma natiu cap a un altre
+ Comment[cs]=Překládá zprávy z vašeho rodného jazyka do jiného
+ Comment[cy]=Cyfieithu negeseuon o'ch iaith gyntaf i iaith arall
+ Comment[da]=Oversætter beskeder fra dit indfødte sprog til et andet sprog
+diff -Nur kdenetwork-4.3.4/kopete/plugins/translator/kopete_translator.desktop kdenetwork-4.3.5/kopete/plugins/translator/kopete_translator.desktop
+--- kdenetwork-4.3.4/kopete/plugins/translator/kopete_translator.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/translator/kopete_translator.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bn]=অনুবাদক
+ Name[br]=Troer
+ Name[ca]=Traductor
++Name[ca@valencia]=Traductor
+ Name[cs]=Překladač
+ Name[cy]=Cyfieithydd
+ Name[da]=Oversætter
+@@ -86,6 +87,7 @@
+ Comment[bg]=Приставка за превод от един език на друг в реално време
+ Comment[bn]=আপনার স্থানীয় ভাষাতে বিদেশী বন্ধুর সঙ্গে চ্যাট করুন
+ Comment[ca]=Feu un xat amb els vostres amics en la vostra llengua nativa
++Comment[ca@valencia]=Feu un xat amb els vostres amics en la vostra llengua nativa
+ Comment[cs]=Pokecejte si s cizinci ve svém rodném jazyku
+ Comment[cy]=Sgwrsio â chyfeillion tramor yn eich iaith gyntaf
+ Comment[da]=Chat med udenlandske venner på dit eget sprog
+@@ -129,8 +131,8 @@
+ Comment[se]=Čátte olgoriikkalaš ustibiiguin iežat gillii
+ Comment[sk]=Rozprávajte sa s vašimi priateľmi v cudzine v inom jazyku
+ Comment[sl]=Klepetajte s prijatelji iz tujine v svojem domačem jeziku
+-Comment[sr]=Ћаскајте са другарима странцима на вашем матерњем језику
+-Comment[sr@latin]=Ćaskajte sa drugarima strancima na vašem maternjem jeziku
++Comment[sr]=Ћаскајте са другарима странцима на свом матерњем језику
++Comment[sr@latin]=Ćaskajte sa drugarima strancima na svom maternjem jeziku
+ Comment[sv]=Chatta med utländska kompisar på ditt modersmål
+ Comment[ta]=வெளிநாட்டு நபருடன் உங்கள் சொந்த மொழியில் அரட்டை அடிக்க முடியும்
+ Comment[tg]=Чат бо дӯстони хориҷӣ дар забони модарии шумо
+diff -Nur kdenetwork-4.3.4/kopete/plugins/urlpicpreview/kopete_urlpicpreview_config.desktop kdenetwork-4.3.5/kopete/plugins/urlpicpreview/kopete_urlpicpreview_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/urlpicpreview/kopete_urlpicpreview_config.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/urlpicpreview/kopete_urlpicpreview_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -10,6 +10,7 @@
+ Name=URLPicPreview Plugin Configuration
+ Name[ar]=إعدادات ملحق URLPicPreview
+ Name[ca]=Configuració del connector URLPicPreview
++Name[ca@valencia]=Configuració del connector URLPicPreview
+ Name[cs]=Nastavení modulu náhledu obrázků
+ Name[da]=Konfiguration af URLPicPreview-plugin
+ Name[de]=Einrichtung des URLPicPreview-Moduls
+@@ -57,6 +58,7 @@
+ Comment=URLPicPreview Plugin
+ Comment[ar]=ملحق URLPicPreview
+ Comment[ca]=Connector URLPicPreview
++Comment[ca@valencia]=Connector URLPicPreview
+ Comment[cs]=Modul náhledu obrázků
+ Comment[da]=URLPicPreview-plugin
+ Comment[de]=URLPicPreview-Moduls
+diff -Nur kdenetwork-4.3.4/kopete/plugins/urlpicpreview/kopete_urlpicpreview.desktop kdenetwork-4.3.5/kopete/plugins/urlpicpreview/kopete_urlpicpreview.desktop
+--- kdenetwork-4.3.4/kopete/plugins/urlpicpreview/kopete_urlpicpreview.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/plugins/urlpicpreview/kopete_urlpicpreview.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -15,6 +15,7 @@
+ X-KDE-PluginInfo-EnabledByDefault=false
+ Name=Preview of Pictures in Chats
+ Name[ca]=Vista prèvia d'imatges en els xats
++Name[ca@valencia]=Vista prèvia d'imatges en els xats
+ Name[da]=Forhåndsvisning af billeder i chat
+ Name[de]=Bildervorschauen in Chats
+ Name[el]=Προεπισκόπηση εικόνων σε συνομιλίες
+@@ -52,6 +53,7 @@
+ Comment=Displays a preview of pictures in chats
+ Comment[ar]=عرض لمحات للرسوم في المحادثات
+ Comment[ca]=Mostra una vista prèvia de les imatges en els xats
++Comment[ca@valencia]=Mostra una vista prèvia de les imatges en els xats
+ Comment[cs]=Zobrazuje náhled obrázků v rozhovoru
+ Comment[da]=Forhåndsviser billeder i chat
+ Comment[de]=Zeigt eine Vorschau für Bilder in Chats an
+diff -Nur kdenetwork-4.3.4/kopete/plugins/webpresence/kopete_webpresence_config.desktop kdenetwork-4.3.5/kopete/plugins/webpresence/kopete_webpresence_config.desktop
+--- kdenetwork-4.3.4/kopete/plugins/webpresence/kopete_webpresence_config.desktop	2009-11-27 14:03:38.000000000 +0100
++++ kdenetwork-4.3.5/kopete/plugins/webpresence/kopete_webpresence_config.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -12,6 +12,7 @@
+ Comment[bg]=Приставка за показвана състоянието на (част от) списъка с контакти като уеб страница
+ Comment[bn]=একটি ওয়েবপেজে আপনার যোগাযোগ তালিকার (এর অংশের) অবস্থা প্রদর্শন করে
+ Comment[ca]=Mostra l'estat de (parts de) la vostra llista de contactes a una pàgina web
++Comment[ca@valencia]=Mostra l'estat de (parts de) la vostra llista de contactes a una pàgina web
+ Comment[cs]=Zobrazí stav (části) seznamu kontaktů na webu
+ Comment[cy]=Dangos cyflwr o (rannau o) eich rhestr cysylltiadau ar dudalen wê
+ Comment[da]=Vis status for (dele af) din kontaktliste på en netside
+@@ -71,6 +72,7 @@
+ Name[bg]=Уеб присъствие
+ Name[bn]=ওয়েব উপস্থিতি
+ Name[ca]=Web de presència
++Name[ca@valencia]=Web de presència
+ Name[cs]=Přítomnost na webu
+ Name[cy]=Presenoldeb Gwê
+ Name[da]=WWW-nærvær
+diff -Nur kdenetwork-4.3.4/kopete/plugins/webpresence/kopete_webpresence.desktop kdenetwork-4.3.5/kopete/plugins/webpresence/kopete_webpresence.desktop
+--- kdenetwork-4.3.4/kopete/plugins/webpresence/kopete_webpresence.desktop	2009-11-27 14:03:38.000000000 +0100
++++ kdenetwork-4.3.5/kopete/plugins/webpresence/kopete_webpresence.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -18,6 +18,7 @@
+ Comment[bg]=Приставка за показвана състоянието на (част от) списъка с контакти като уеб страница
+ Comment[bn]=একটি ওয়েবপেজে আপনার যোগাযোগ তালিকার (এর অংশের) অবস্থা প্রদর্শন করে
+ Comment[ca]=Mostra l'estat de (parts de) la vostra llista de contactes a una pàgina web
++Comment[ca@valencia]=Mostra l'estat de (parts de) la vostra llista de contactes a una pàgina web
+ Comment[cs]=Zobrazí stav (části) seznamu kontaktů na webu
+ Comment[cy]=Dangos cyflwr o (rannau o) eich rhestr cysylltiadau ar dudalen wê
+ Comment[da]=Vis status for (dele af) din kontaktliste på en netside
+@@ -77,6 +78,7 @@
+ Name[bg]=Уеб присъствие
+ Name[bn]=ওয়েব উপস্থিতি
+ Name[ca]=Web de presència
++Name[ca@valencia]=Web de presència
+ Name[cs]=Přítomnost na webu
+ Name[cy]=Presenoldeb Gwê
+ Name[da]=WWW-nærvær
+diff -Nur kdenetwork-4.3.4/kopete/protocols/bonjour/kopete_bonjour.desktop kdenetwork-4.3.5/kopete/protocols/bonjour/kopete_bonjour.desktop
+--- kdenetwork-4.3.4/kopete/protocols/bonjour/kopete_bonjour.desktop	2009-10-02 10:21:15.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/bonjour/kopete_bonjour.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -17,6 +17,7 @@
+ Name=Bonjour
+ Name[ar]=Bonjour
+ Name[ca]=Bonjour
++Name[ca@valencia]=Bonjour
+ Name[cs]=Bonjour
+ Name[da]=Bonjour
+ Name[de]=Bonjour
+@@ -62,6 +63,7 @@
+ Name[zh_TW]=Bonjour
+ Comment=Serverless Link Local XMPP Messaging
+ Comment[ca]=Enllaç local de missatgeria XMPP sense servidor
++Comment[ca@valencia]=Enllaç local de missatgeria XMPP sense servidor
+ Comment[da]=Link Local XMPP-messaging uden server
+ Comment[de]=Link-Local-XMPP-Messaging ohne Server
+ Comment[el]=Τοπικά μηνύματα XMPP χωρίς εξυπηρετητή
+diff -Nur kdenetwork-4.3.4/kopete/protocols/gadu/kopete_gadu.desktop kdenetwork-4.3.5/kopete/protocols/gadu/kopete_gadu.desktop
+--- kdenetwork-4.3.4/kopete/protocols/gadu/kopete_gadu.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/gadu/kopete_gadu.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=Gadu-Gadu
+ Name[br]=Gadu-Gadu
+ Name[ca]=Gadu-Gadu
++Name[ca@valencia]=Gadu-Gadu
+ Name[cs]=Gadu-Gadu
+ Name[cy]=Gadu-Gadu
+ Name[da]=Gadu-Gadu
+@@ -82,6 +83,7 @@
+ Comment=Gadu-Gadu: the Polish IM service
+ Comment[ar]=غادو-غادو: خدمة المحادثة الفورية البولندية
+ Comment[ca]=Gadu-Gadu: el servei de missatgeria instantània polonès
++Comment[ca@valencia]=Gadu-Gadu: el servei de missatgeria instantània polonés
+ Comment[cs]=Gadu-Gadu: polská IM služba
+ Comment[da]=Gadu-Gadu: Den polske IM-tjeneste
+ Comment[de]=Gadu-Gadu - der polnische IM-Dienst
+diff -Nur kdenetwork-4.3.4/kopete/protocols/groupwise/kopete_groupwise.desktop kdenetwork-4.3.5/kopete/protocols/groupwise/kopete_groupwise.desktop
+--- kdenetwork-4.3.4/kopete/protocols/groupwise/kopete_groupwise.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/groupwise/kopete_groupwise.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=গ্রুপ-ওয়াইজ
+ Name[br]=GroupWise
+ Name[ca]=GroupWise
++Name[ca@valencia]=GroupWise
+ Name[cs]=GroupWise
+ Name[da]=GroupWise
+ Name[de]=GroupWise
+@@ -82,6 +83,7 @@
+ Comment[bg]=Novell GroupWise Messenger
+ Comment[bn]=নোভেল গ্রুপ-ওয়াইজ বার্তাবাহক
+ Comment[ca]=Novell GroupWise Messenger
++Comment[ca@valencia]=Novell GroupWise Messenger
+ Comment[cs]=Novell GroupWise komunikátor
+ Comment[da]=Novell GroupWise Messenger
+ Comment[de]=Novell-GroupWise-Nachrichtendienst
+diff -Nur kdenetwork-4.3.4/kopete/protocols/irc/kopete_irc.desktop kdenetwork-4.3.5/kopete/protocols/irc/kopete_irc.desktop
+--- kdenetwork-4.3.4/kopete/protocols/irc/kopete_irc.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/irc/kopete_irc.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=আই-আর-সি
+ Name[br]=IRC
+ Name[ca]=IRC
++Name[ca@valencia]=IRC
+ Name[cs]=IRC
+ Name[cy]=IRC
+ Name[da]=IRC
+@@ -81,6 +82,7 @@
+ Comment=Internet Relay Chat
+ Comment[ar]=دردشة منقال الإنترنت
+ Comment[ca]=Internet Relay Chat
++Comment[ca@valencia]=Internet Relay Chat
+ Comment[cs]=Internet Relay Chat
+ Comment[da]=Internet Relay Chat
+ Comment[de]=Internet Relay Chat
+diff -Nur kdenetwork-4.3.4/kopete/protocols/jabber/kioslave/jabberdisco.protocol kdenetwork-4.3.5/kopete/protocols/jabber/kioslave/jabberdisco.protocol
+--- kdenetwork-4.3.4/kopete/protocols/jabber/kioslave/jabberdisco.protocol	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/jabber/kioslave/jabberdisco.protocol	2010-01-21 21:48:45.000000000 +0100
+@@ -14,6 +14,7 @@
+ Description[bg]=A KIO slave for Jabber Service Discovery
+ Description[bn]=Jabber সার্ভিস ডিসকভারির জন্য একটি কে-আই-ও স্লেভ
+ Description[ca]=Un esclau KIO pel servei de de descoberta del Jabber
++Description[ca@valencia]=Un esclau KIO pel servei de de descoberta del Jabber
+ Description[cs]=Pomocný protokol pro zjišťování služeb Jabber
+ Description[da]=En kioslave til at opdage jabber service
+ Description[de]=Ein-/Ausgabemodul zum Auffinden von Jabber-Diensten
+diff -Nur kdenetwork-4.3.4/kopete/protocols/jabber/kopete_jabber.desktop kdenetwork-4.3.5/kopete/protocols/jabber/kopete_jabber.desktop
+--- kdenetwork-4.3.4/kopete/protocols/jabber/kopete_jabber.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/jabber/kopete_jabber.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=Jabber
+ Name[br]=Jabber
+ Name[ca]=Jabber
++Name[ca@valencia]=Jabber
+ Name[cs]=Jabber
+ Name[cy]=Jabber
+ Name[da]=Jabber
+@@ -82,6 +83,7 @@
+ Comment=XMPP, Jabber, Google Talk
+ Comment[ar]=XMPP, جابر, محادثة جوجل
+ Comment[ca]=XMPP, Jabber, Google Talk
++Comment[ca@valencia]=XMPP, Jabber, Google Talk
+ Comment[cs]=XMPP, Jabber, Google Talk
+ Comment[da]=XMPP, Jabber, Google Talk
+ Comment[de]=XMPP, Jabber, Google Talk
+diff -Nur kdenetwork-4.3.4/kopete/protocols/meanwhile/kopete_meanwhile.desktop kdenetwork-4.3.5/kopete/protocols/meanwhile/kopete_meanwhile.desktop
+--- kdenetwork-4.3.4/kopete/protocols/meanwhile/kopete_meanwhile.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/meanwhile/kopete_meanwhile.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=Meanwhile
+ Name[br]=Meanwhile
+ Name[ca]=Meanwhile
++Name[ca@valencia]=Meanwhile
+ Name[cs]=Meanwhile
+ Name[da]=Meanwhile
+ Name[de]=Meanwhile
+@@ -77,6 +78,7 @@
+ Comment=Communicate at the same time with Meanwhile
+ Comment[ar]=التحدث في نفس وقت مع Meanwhile
+ Comment[ca]=Comuniqueu-vos en el mateix moment amb Meanwhile
++Comment[ca@valencia]=Comuniqueu-vos en el mateix moment amb Meanwhile
+ Comment[cs]=Komunikujte pomocí Meanwhile
+ Comment[da]=Kommunikér på samme tid med Meanwhile
+ Comment[de]=Kommunizieren Sie gleichzeitig mit Meanwhile
+diff -Nur kdenetwork-4.3.4/kopete/protocols/oscar/aim/kopete_aim.desktop kdenetwork-4.3.5/kopete/protocols/oscar/aim/kopete_aim.desktop
+--- kdenetwork-4.3.4/kopete/protocols/oscar/aim/kopete_aim.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/oscar/aim/kopete_aim.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=এ-আই-এম
+ Name[br]=AIM
+ Name[ca]=AIM
++Name[ca@valencia]=AIM
+ Name[cs]=AIM
+ Name[cy]=AIM
+ Name[da]=AIM
+@@ -82,6 +83,7 @@
+ Comment=An Instant Messenger
+ Comment[ar]=مراسل فوري
+ Comment[ca]=Missatger a l'instant
++Comment[ca@valencia]=Missatger a l'instant
+ Comment[cs]=Komunikátor
+ Comment[da]=En instant messenger
+ Comment[de]=Ein Instant Messenger
+diff -Nur kdenetwork-4.3.4/kopete/protocols/oscar/icq/kopete_icq.desktop kdenetwork-4.3.5/kopete/protocols/oscar/icq/kopete_icq.desktop
+--- kdenetwork-4.3.4/kopete/protocols/oscar/icq/kopete_icq.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/oscar/icq/kopete_icq.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=আই-সি-কিউ
+ Name[br]=ICQ
+ Name[ca]=ICQ
++Name[ca@valencia]=ICQ
+ Name[cs]=ICQ
+ Name[cy]=ICQ
+ Name[da]=ICQ
+@@ -82,6 +83,7 @@
+ Comment=Seek and Chat with ICQ
+ Comment[ar]=انتقل ودردش مع ICQ
+ Comment[ca]=Cerqueu i xerreu amb l'ICQ
++Comment[ca@valencia]=Cerqueu i xerreu amb l'ICQ
+ Comment[cs]=Hledejte a bavte se s ICQ
+ Comment[da]=Søg og chat med ICQ
+ Comment[de]=Suchen und Chatten mit ICQ
+diff -Nur kdenetwork-4.3.4/kopete/protocols/qq/kopete_qq.desktop kdenetwork-4.3.5/kopete/protocols/qq/kopete_qq.desktop
+--- kdenetwork-4.3.4/kopete/protocols/qq/kopete_qq.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/qq/kopete_qq.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -18,6 +18,7 @@
+ Name[ar]=QQ
+ Name[bg]=QQ
+ Name[ca]=QQ
++Name[ca@valencia]=QQ
+ Name[cs]=QQ
+ Name[da]=QQ
+ Name[de]=QQ
+@@ -67,6 +68,7 @@
+ Comment=A popular Chinese IM system
+ Comment[ar]=نظام التحادث الفوري الصيني الشعبي
+ Comment[ca]=Un sistema de missatgeria xinès popular
++Comment[ca@valencia]=Un sistema de missatgeria xinés popular
+ Comment[cs]=Populární čínský IM systém
+ Comment[da]=Et populært kinesisk IM-system
+ Comment[de]=Ein beliebtes chinesisches IM-System
+diff -Nur kdenetwork-4.3.4/kopete/protocols/sms/kopete_sms.desktop kdenetwork-4.3.5/kopete/protocols/sms/kopete_sms.desktop
+--- kdenetwork-4.3.4/kopete/protocols/sms/kopete_sms.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/sms/kopete_sms.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=এস-এম-এস
+ Name[br]=SMS
+ Name[ca]=SMS
++Name[ca@valencia]=SMS
+ Name[cs]=SMS
+ Name[cy]=SMS
+ Name[da]=SMS
+@@ -84,6 +85,7 @@
+ Comment=Send SMS messages to mobile phones
+ Comment[ar]=أرسل رسائل قصيرة للهواتف المتنقلة
+ Comment[ca]=Envia missatges SMS a telèfons mòbils
++Comment[ca@valencia]=Envia missatges SMS a telèfons mòbils
+ Comment[cs]=Poslat SMS na mobilní telefony
+ Comment[da]=Send SMS-beskeder til mobiltelefoner
+ Comment[de]=SMS-Nachrichten an Mobiltelefone senden
+diff -Nur kdenetwork-4.3.4/kopete/protocols/testbed/kopete_testbed.desktop kdenetwork-4.3.5/kopete/protocols/testbed/kopete_testbed.desktop
+--- kdenetwork-4.3.4/kopete/protocols/testbed/kopete_testbed.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/testbed/kopete_testbed.desktop	2010-01-21 21:48:46.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bg]=Testbed
+ Name[bn]=পরীক্ষাস্থল
+ Name[ca]=Testbed
++Name[ca@valencia]=Testbed
+ Name[cs]=Testbed
+ Name[cy]=Mainc Arbrofi
+ Name[da]=Testbed
+@@ -79,6 +80,7 @@
+ Comment[bg]=Пробен протокол на Kopete
+ Comment[bn]=কপেট পরীক্ষা প্রোটোকল
+ Comment[ca]=Protocol per a proves en Kopete
++Comment[ca@valencia]=Protocol per a proves en Kopete
+ Comment[cs]=Kopete test protocol
+ Comment[cy]=Protocol arbrofi Kopete
+ Comment[da]=Kopete test-protokol
+diff -Nur kdenetwork-4.3.4/kopete/protocols/winpopup/kopete_wp.desktop kdenetwork-4.3.5/kopete/protocols/winpopup/kopete_wp.desktop
+--- kdenetwork-4.3.4/kopete/protocols/winpopup/kopete_wp.desktop	2009-10-02 10:21:14.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/winpopup/kopete_wp.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -19,6 +19,7 @@
+ Name[bg]=WinPopup
+ Name[bn]=উইন পপ-আপ
+ Name[ca]=Finestres emergents
++Name[ca@valencia]=Finestres emergents
+ Name[cs]=WinPopup
+ Name[cy]=WinPopup
+ Name[da]=WinPopup
+@@ -80,6 +81,7 @@
+ Comment=Sends Windows WinPopup messages
+ Comment[ar]=إرسال رسائل النوافذ WinPopup
+ Comment[ca]=Envia missatges de finestres emergents de Windows
++Comment[ca@valencia]=Envia missatges de finestres emergents de Windows
+ Comment[cs]=Odesílání Windows WinPopup zpráv
+ Comment[da]=Sender Windows WinPopup-beskeder
+ Comment[de]=Sendet Nachrichten des Typs Windows-WinPopup
+diff -Nur kdenetwork-4.3.4/kopete/protocols/wlm/kopete_wlm.desktop kdenetwork-4.3.5/kopete/protocols/wlm/kopete_wlm.desktop
+--- kdenetwork-4.3.4/kopete/protocols/wlm/kopete_wlm.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/wlm/kopete_wlm.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -17,6 +17,7 @@
+ Name=WLM Messenger
+ Name[ar]=مرسال WLM
+ Name[ca]=WLM Messenger
++Name[ca@valencia]=WLM Messenger
+ Name[cs]=WLM Messenger
+ Name[da]=WLM-messenger
+ Name[de]=WLN Messenger
+@@ -49,7 +50,7 @@
+ Name[ro]=Mesager WLM
+ Name[ru]=WLM Messenger
+ Name[sl]=WLM Messenger
+-Name[sr]=Виндоуз лајв месинџер
++Name[sr]=Виндоуз лајв месенџер
+ Name[sr@latin]=Windows Live Messenger
+ Name[sv]=WLM Messenger
+ Name[tr]=WLM Messenger
+@@ -60,6 +61,7 @@
+ Comment=Windows Live Messenger plugin
+ Comment[ar]=ملحق مرسال النوافذ مباشر
+ Comment[ca]=Connector pel Windows Live Messenger
++Comment[ca@valencia]=Connector pel Windows Live Messenger
+ Comment[cs]=Modul pro Windows Live Messenger
+ Comment[da]=Plugin til Windows Live Messenger
+ Comment[de]=Modul für Windows-Live-Messenger
+@@ -92,7 +94,7 @@
+ Comment[ro]=Modul Windows Live Messenger
+ Comment[ru]=Модуль Windows Live Messenger
+ Comment[sl]=Vstavek za Windows Live Messenger
+-Comment[sr]=Прикључак Виндоуз лајв месинџера
++Comment[sr]=Прикључак Виндоуз лајв месенџера
+ Comment[sr@latin]=Priključak Windows Live Messengera
+ Comment[sv]=Insticksprogram för Windows Live Messenger
+ Comment[tr]=Windows Live Messenger eklentisi
+diff -Nur kdenetwork-4.3.4/kopete/protocols/yahoo/kopete_yahoo.desktop kdenetwork-4.3.5/kopete/protocols/yahoo/kopete_yahoo.desktop
+--- kdenetwork-4.3.4/kopete/protocols/yahoo/kopete_yahoo.desktop	2009-10-02 10:21:13.000000000 +0200
++++ kdenetwork-4.3.5/kopete/protocols/yahoo/kopete_yahoo.desktop	2010-01-21 21:48:45.000000000 +0100
+@@ -20,6 +20,7 @@
+ Name[bn]=ইয়্যাহু
+ Name[br]=Yahoo
+ Name[ca]=Yahoo
++Name[ca@valencia]=Yahoo
+ Name[cs]=Yahoo
+ Name[cy]=Yahoo
+ Name[da]=Yahoo
+@@ -84,6 +85,7 @@
+ Comment=Yahoo! Messenger IM and video chat
+ Comment[ar]=ياهو! مرسال محادثة فورية ودردشة بالفيديو
+ Comment[ca]=Missatgeria instantània de Yahoo! Messenger i xat de vídeo
++Comment[ca@valencia]=Missatgeria instantània de Yahoo! Messenger i xat de vídeo
+ Comment[cs]=Yahoo! Messenger zprávy a video chat
+ Comment[da]=Yahoo! Messenger IM og videochat
+ Comment[de]=Yahoo! Messenger IM und Video-Chat
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Austria/.directory kdenetwork-4.3.5/kppp/DB/Provider/Austria/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Austria/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Austria/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=النّمسا
+ Name[bg]=Австрия
+ Name[ca]=Àustria
++Name[ca@valencia]=Àustria
+ Name[cs]=Rakousko
+ Name[da]=Østrig
+ Name[de]=Österreich
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Belarus/.directory kdenetwork-4.3.5/kppp/DB/Provider/Belarus/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Belarus/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Belarus/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=روسيا البيضاء
+ Name[bg]=Беларус
+ Name[ca]=Bielorússia
++Name[ca@valencia]=Bielorússia
+ Name[cs]=Bělorusko
+ Name[da]=Hviderusland
+ Name[de]=Weißrussland
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Czech_Republic/.directory kdenetwork-4.3.5/kppp/DB/Provider/Czech_Republic/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Czech_Republic/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Czech_Republic/.directory	2010-01-21 21:48:47.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=التشيك
+ Name[bg]=Чехия
+ Name[ca]=Txèquia
++Name[ca@valencia]=Txèquia
+ Name[cs]=Česká Republika
+ Name[da]=Tjekkiet
+ Name[de]=Tschechien
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Denmark/.directory kdenetwork-4.3.5/kppp/DB/Provider/Denmark/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Denmark/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Denmark/.directory	2010-01-21 21:48:47.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=الدنمارك
+ Name[bg]=Дания
+ Name[ca]=Dinamarca
++Name[ca@valencia]=Dinamarca
+ Name[cs]=Dánsko
+ Name[da]=Danmark
+ Name[de]=Dänemark
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/France/.directory kdenetwork-4.3.5/kppp/DB/Provider/France/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/France/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/France/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=فرنسا
+ Name[bg]=Франция
+ Name[ca]=França
++Name[ca@valencia]=França
+ Name[cs]=Francie
+ Name[da]=Frankrig
+ Name[de]=Frankreich
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Germany/.directory kdenetwork-4.3.5/kppp/DB/Provider/Germany/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Germany/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Germany/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=ألمانيا
+ Name[bg]=Германия
+ Name[ca]=Alemanya
++Name[ca@valencia]=Alemanya
+ Name[cs]=Německo
+ Name[da]=Tyskland
+ Name[de]=Deutschland
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Ireland/.directory kdenetwork-4.3.5/kppp/DB/Provider/Ireland/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Ireland/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Ireland/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=إيرلندا
+ Name[bg]=Ирландия
+ Name[ca]=Irlanda
++Name[ca@valencia]=Irlanda
+ Name[cs]=Irsko
+ Name[da]=Irland
+ Name[de]=Irland
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Netherlands/.directory kdenetwork-4.3.5/kppp/DB/Provider/Netherlands/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Netherlands/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Netherlands/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=هولندا
+ Name[bg]=Холандия
+ Name[ca]=Països Baixos
++Name[ca@valencia]=Països Baixos
+ Name[cs]=Nizozemí
+ Name[da]=Holland
+ Name[de]=Niederlande
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/New_Zealand/.directory kdenetwork-4.3.5/kppp/DB/Provider/New_Zealand/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/New_Zealand/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/New_Zealand/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=نيوزيلندا
+ Name[bg]=Нова Зеландия
+ Name[ca]=Nova Zelanda
++Name[ca@valencia]=Nova Zelanda
+ Name[cs]=Nový Zéland
+ Name[da]=New Zealand
+ Name[de]=Neuseeland
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Norway/.directory kdenetwork-4.3.5/kppp/DB/Provider/Norway/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Norway/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Norway/.directory	2010-01-21 21:48:47.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=النرويج
+ Name[bg]=Норвегия
+ Name[ca]=Noruega
++Name[ca@valencia]=Noruega
+ Name[cs]=Norsko
+ Name[da]=Norge
+ Name[de]=Norwegen
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Portugal/.directory kdenetwork-4.3.5/kppp/DB/Provider/Portugal/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Portugal/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Portugal/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=البرتغال
+ Name[bg]=Португалия
+ Name[ca]=Portugal
++Name[ca@valencia]=Portugal
+ Name[cs]=Portugalsko
+ Name[da]=Portugal
+ Name[de]=Portugal
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Slovenia/.directory kdenetwork-4.3.5/kppp/DB/Provider/Slovenia/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Slovenia/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Slovenia/.directory	2010-01-21 21:48:47.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=سلوفينيا
+ Name[bg]=Словения
+ Name[ca]=Eslovènia
++Name[ca@valencia]=Eslovènia
+ Name[cs]=Slovinsko
+ Name[da]=Slovenien
+ Name[de]=Slowenien
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Sweden/.directory kdenetwork-4.3.5/kppp/DB/Provider/Sweden/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Sweden/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Sweden/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=السويد
+ Name[bg]=Швеция
+ Name[ca]=Suècia
++Name[ca@valencia]=Suècia
+ Name[cs]=Švédsko
+ Name[da]=Sverige
+ Name[de]=Schweden
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Switzerland/.directory kdenetwork-4.3.5/kppp/DB/Provider/Switzerland/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Switzerland/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Switzerland/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=سويسرا
+ Name[bg]=Швейцария
+ Name[ca]=Suïssa
++Name[ca@valencia]=Suïssa
+ Name[cs]=Švýcarsko
+ Name[da]=Schweiz
+ Name[de]=Schweiz
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Taiwan/.directory kdenetwork-4.3.5/kppp/DB/Provider/Taiwan/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Taiwan/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Taiwan/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=تايوان
+ Name[bg]=Тайван
+ Name[ca]=Taiwan
++Name[ca@valencia]=Taiwan
+ Name[cs]=Taiwan
+ Name[da]=Taiwan
+ Name[de]=Taiwan
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Ukraine/.directory kdenetwork-4.3.5/kppp/DB/Provider/Ukraine/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Ukraine/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Ukraine/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=أوكرانيا
+ Name[bg]=Украйна
+ Name[ca]=Ucraïna
++Name[ca@valencia]=Ucraïna
+ Name[cs]=Ukrajina
+ Name[da]=Ukraine
+ Name[de]=Ukraine
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/United_Kingdom/.directory kdenetwork-4.3.5/kppp/DB/Provider/United_Kingdom/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/United_Kingdom/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/United_Kingdom/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=المملكة المتحدة
+ Name[bg]=Обединеното кралство
+ Name[ca]=Regne Unit
++Name[ca@valencia]=Regne Unit
+ Name[cs]=Velká Británie
+ Name[da]=Storbritannien
+ Name[de]=Vereinigtes Königreich
+diff -Nur kdenetwork-4.3.4/kppp/DB/Provider/Yugoslavia/.directory kdenetwork-4.3.5/kppp/DB/Provider/Yugoslavia/.directory
+--- kdenetwork-4.3.4/kppp/DB/Provider/Yugoslavia/.directory	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/DB/Provider/Yugoslavia/.directory	2010-01-21 21:48:48.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=يوغوسلافيا
+ Name[bg]=Югославия
+ Name[ca]=Iugoslàvia
++Name[ca@valencia]=Iugoslàvia
+ Name[cs]=Jugoslávie
+ Name[da]=Jugoslavien
+ Name[de]=Jugoslawien
+diff -Nur kdenetwork-4.3.4/kppp/Kppp.desktop kdenetwork-4.3.5/kppp/Kppp.desktop
+--- kdenetwork-4.3.4/kppp/Kppp.desktop	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/Kppp.desktop	2010-01-21 21:48:48.000000000 +0100
+@@ -4,6 +4,7 @@
+ GenericName[bg]=Включване в Интернет
+ GenericName[bn]=ইন্টারনেট ডায়াল-আপ সরঞ্জাম
+ GenericName[ca]=Eina per a la connexió telefònica a Internet
++GenericName[ca@valencia]=Eina per a la connexió telefònica a Internet
+ GenericName[cs]=Připojení přes vytáčenou linku
+ GenericName[da]=Internet-opkaldsværktøj
+ GenericName[de]=Einwahl ins Internet
+@@ -65,6 +66,7 @@
+ Name[bn]=কে-পি-পি-পি
+ Name[br]=KPPP
+ Name[ca]=KPPP
++Name[ca@valencia]=KPPP
+ Name[cs]=KPPP
+ Name[cy]=KPPP
+ Name[da]=KPPP
+diff -Nur kdenetwork-4.3.4/kppp/logview/kppplogview.desktop kdenetwork-4.3.5/kppp/logview/kppplogview.desktop
+--- kdenetwork-4.3.4/kppp/logview/kppplogview.desktop	2009-10-02 10:21:17.000000000 +0200
++++ kdenetwork-4.3.5/kppp/logview/kppplogview.desktop	2010-01-21 21:48:48.000000000 +0100
+@@ -5,6 +5,7 @@
+ Name[bn]=কে-পি-পি-পি লগভিউ
+ Name[br]=KPPPLogview
+ Name[ca]=KPPPLogview
++Name[ca@valencia]=KPPPLogview
+ Name[cs]=KPPPLogview
+ Name[da]=KPPPLogview
+ Name[de]=KPPP-Protokoll-Betrachter
+@@ -62,6 +63,7 @@
+ GenericName[bg]=Преглед на журнала на KPPP
+ GenericName[bn]=ইন্টারনেট ডায়াল-আপ সরঞ্জাম কার্যবিবরণী প্রদর্শক
+ GenericName[ca]=Visor de la bitàcola de l'eina de connexió telefònica a Internet
++GenericName[ca@valencia]=Visor de la bitàcola de l'eina de connexió telefònica a Internet
+ GenericName[cs]=Prohlížeč záznamů připojení přes vytáčenou linku
+ GenericName[da]=Internet-opkaldsværktøj-logviser
+ GenericName[de]=Protokoll-Betrachter für die Einwahl ins Internet
+diff -Nur kdenetwork-4.3.4/krdc/core/krdc_plugin.desktop kdenetwork-4.3.5/krdc/core/krdc_plugin.desktop
+--- kdenetwork-4.3.4/krdc/core/krdc_plugin.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/core/krdc_plugin.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -3,6 +3,7 @@
+ X-KDE-ServiceType=KRDC/Plugin
+ Name=KRDC Plugin
+ Name[ca]=Connector del KRDC
++Name[ca@valencia]=Connector del KRDC
+ Name[cs]=Modul KRDC
+ Name[da]=KRDC-plugin
+ Name[de]=KRDC-Modul
+diff -Nur kdenetwork-4.3.4/krdc/konsole/krdc_konsole.desktop kdenetwork-4.3.5/krdc/konsole/krdc_konsole.desktop
+--- kdenetwork-4.3.4/krdc/konsole/krdc_konsole.desktop	2009-10-02 10:21:11.000000000 +0200
++++ kdenetwork-4.3.5/krdc/konsole/krdc_konsole.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -4,6 +4,7 @@
+ Icon=krdc
+ Name=Konsole
+ Name[ca]=Konsole
++Name[ca@valencia]=Konsole
+ Name[cs]=Konsole
+ Name[da]=Konsole
+ Name[de]=Konsole
+@@ -46,6 +47,7 @@
+ Name[zh_TW]=Konsole
+ Comment=Allows managing SSH or Telnet sessions through KRDC
+ Comment[ca]=Permet gestionar sessions SSH o Telnet mitjançant el KRDC
++Comment[ca@valencia]=Permet gestionar sessions SSH o Telnet mitjançant el KRDC
+ Comment[da]=Muliggør håndtering af SSH- eller Telnet-sessioner via KRDC
+ Comment[de]=Erlaubt die Verwaltung von SSH- und Telnet-Sitzungen über KRDC
+ Comment[el]=Επιτρέπει τη διαχείριση συνεδριών SSH ή Telnet μέσω του KRDC
+diff -Nur kdenetwork-4.3.4/krdc/krdc.desktop kdenetwork-4.3.5/krdc/krdc.desktop
+--- kdenetwork-4.3.4/krdc/krdc.desktop	2009-10-02 10:21:11.000000000 +0200
++++ kdenetwork-4.3.5/krdc/krdc.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -7,6 +7,7 @@
+ Name=KRDC
+ Name[ar]=KRDC
+ Name[ca]=KRDC
++Name[ca@valencia]=KRDC
+ Name[cs]=KRDC
+ Name[da]=KRDC
+ Name[de]=KRDC
+@@ -51,6 +52,7 @@
+ GenericName=Remote Desktop Client
+ GenericName[ar]=عميل سطح المكتب البعيد
+ GenericName[ca]=Client d'escriptori remot
++GenericName[ca@valencia]=Client d'escriptori remot
+ GenericName[cs]=Klient vzdálené pracovní plochy
+ GenericName[da]=Ekstern desktopklient
+ GenericName[de]=Verbindung zu Fremdrechner
+diff -Nur kdenetwork-4.3.4/krdc/nx/krdc_nx_config.desktop kdenetwork-4.3.5/krdc/nx/krdc_nx_config.desktop
+--- kdenetwork-4.3.4/krdc/nx/krdc_nx_config.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/nx/krdc_nx_config.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -3,6 +3,7 @@
+ X-KDE-ServiceTypes=KCModule
+ Name=NX
+ Name[ca]=NX
++Name[ca@valencia]=NX
+ Name[cs]=NX
+ Name[da]=NX
+ Name[de]=NX
+diff -Nur kdenetwork-4.3.4/krdc/nx/krdc_nx.desktop kdenetwork-4.3.5/krdc/nx/krdc_nx.desktop
+--- kdenetwork-4.3.4/krdc/nx/krdc_nx.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/nx/krdc_nx.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -4,6 +4,7 @@
+ Icon=krdc
+ Name=NX
+ Name[ca]=NX
++Name[ca@valencia]=NX
+ Name[cs]=NX
+ Name[da]=NX
+ Name[de]=NX
+@@ -44,6 +45,7 @@
+ Name[zh_TW]=NX
+ Comment=Allows managing NX sessions through KRDC
+ Comment[ca]=Permet gestionar sessions NX mitjançant el KRDC
++Comment[ca@valencia]=Permet gestionar sessions NX mitjançant el KRDC
+ Comment[da]=Muliggør håndtering af NX-sessioner via KRDC
+ Comment[de]=Erlaubt die Verwaltung von NX-Sitzungen über KRDC
+ Comment[el]=Επιτρέπει τη διαχείριση συνεδριών NX μέσω του KRDC
+diff -Nur kdenetwork-4.3.4/krdc/rdp/krdc_rdp_config.desktop kdenetwork-4.3.5/krdc/rdp/krdc_rdp_config.desktop
+--- kdenetwork-4.3.4/krdc/rdp/krdc_rdp_config.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/rdp/krdc_rdp_config.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -3,6 +3,7 @@
+ X-KDE-ServiceTypes=KCModule
+ Name=RDP
+ Name[ca]=RDP
++Name[ca@valencia]=RDP
+ Name[cs]=RDP
+ Name[da]=RDP
+ Name[de]=RDP
+diff -Nur kdenetwork-4.3.4/krdc/rdp/krdc_rdp.desktop kdenetwork-4.3.5/krdc/rdp/krdc_rdp.desktop
+--- kdenetwork-4.3.4/krdc/rdp/krdc_rdp.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/rdp/krdc_rdp.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -4,6 +4,7 @@
+ Icon=krdc
+ Name=RDP
+ Name[ca]=RDP
++Name[ca@valencia]=RDP
+ Name[cs]=RDP
+ Name[da]=RDP
+ Name[de]=RDP
+@@ -44,6 +45,7 @@
+ Name[zh_TW]=RDP
+ Comment=Allows managing RDP sessions through KRDC
+ Comment[ca]=Permet gestionar sessions RDP mitjançant el KRDC
++Comment[ca@valencia]=Permet gestionar sessions RDP mitjançant el KRDC
+ Comment[da]=Muliggør håndtering af RDP-sessioner via KRDC
+ Comment[de]=Erlaubt die Verwaltung von RDP-Sitzungen über KRDC
+ Comment[el]=Επιτρέπει τη διαχείριση συνεδριών RDP μέσω του KRDC
+diff -Nur kdenetwork-4.3.4/krdc/rdp/rdpview.cpp kdenetwork-4.3.5/krdc/rdp/rdpview.cpp
+--- kdenetwork-4.3.4/krdc/rdp/rdpview.cpp	2009-04-30 20:02:36.000000000 +0200
++++ kdenetwork-4.3.5/krdc/rdp/rdpview.cpp	2010-01-21 21:48:44.000000000 +0100
+@@ -163,6 +163,7 @@
+     if (!m_url.password().isNull())
+         arguments << "-p" << m_url.password();
+ 
++    arguments << "-D";  // request the window has no decorations
+     arguments << "-X" << QString::number(m_container->winId());
+     arguments << "-a" << QString::number((m_hostPreferences->colorDepth() + 1) * 8);
+ 
+diff -Nur kdenetwork-4.3.4/krdc/rdp/smb2rdc.desktop kdenetwork-4.3.5/krdc/rdp/smb2rdc.desktop
+--- kdenetwork-4.3.4/krdc/rdp/smb2rdc.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/rdp/smb2rdc.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -10,6 +10,7 @@
+ Name[bg]=Връзка с отдалечен работно място с избрания компютър
+ Name[bn]=এই মেশিনে প্রত্যন্ত ডেস্কটপের সংযোগ খোলো
+ Name[ca]=Obre una connexió remota d'escriptori a aquesta màquina
++Name[ca@valencia]=Obri una connexió remota d'escriptori a esta màquina
+ Name[cs]=Otevřít vzdálené připojení plochy k tomuto počítači
+ Name[da]=Åbn ekstern desktopforbindelse til denne maskine
+ Name[de]=Verbindung zur Arbeitsfläche dieses Rechners herstellen
+diff -Nur kdenetwork-4.3.4/krdc/test/krdc_test.desktop kdenetwork-4.3.5/krdc/test/krdc_test.desktop
+--- kdenetwork-4.3.4/krdc/test/krdc_test.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/test/krdc_test.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -4,6 +4,7 @@
+ Icon=krdc
+ Name=Test
+ Name[ca]=Prova
++Name[ca@valencia]=Prova
+ Name[cs]=Test
+ Name[da]=Test
+ Name[de]=Test
+@@ -48,6 +49,7 @@
+ Name[zh_TW]=測試
+ Comment=Testplugin for KRDC development
+ Comment[ca]=Connector de prova del desenvolupament del KRDC
++Comment[ca@valencia]=Connector de prova del desenvolupament del KRDC
+ Comment[cs]=Demonstrační modul pro vývoj KRDC
+ Comment[da]=Test-plugin til KRDC-udvikling
+ Comment[de]=Testmodul für die KRDC-Entwicklung
+diff -Nur kdenetwork-4.3.4/krdc/vnc/krdc_vnc_config.desktop kdenetwork-4.3.5/krdc/vnc/krdc_vnc_config.desktop
+--- kdenetwork-4.3.4/krdc/vnc/krdc_vnc_config.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/vnc/krdc_vnc_config.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -3,6 +3,7 @@
+ X-KDE-ServiceTypes=KCModule
+ Name=VNC
+ Name[ca]=VNC
++Name[ca@valencia]=VNC
+ Name[cs]=VNC
+ Name[da]=VNC
+ Name[de]=VNC
+diff -Nur kdenetwork-4.3.4/krdc/vnc/krdc_vnc.desktop kdenetwork-4.3.5/krdc/vnc/krdc_vnc.desktop
+--- kdenetwork-4.3.4/krdc/vnc/krdc_vnc.desktop	2009-10-02 10:21:07.000000000 +0200
++++ kdenetwork-4.3.5/krdc/vnc/krdc_vnc.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -4,6 +4,7 @@
+ Icon=krdc
+ Name=VNC
+ Name[ca]=VNC
++Name[ca@valencia]=VNC
+ Name[cs]=VNC
+ Name[da]=VNC
+ Name[de]=VNC
+@@ -45,6 +46,7 @@
+ Name[zh_TW]=VNC
+ Comment=Allows managing VNC sessions through KRDC
+ Comment[ca]=Permet gestionar sessions VNC mitjançant el KRDC
++Comment[ca@valencia]=Permet gestionar sessions VNC mitjançant el KRDC
+ Comment[da]=Muliggør håndtering af VNC-sessioner via KRDC
+ Comment[de]=Erlaubt die Verwaltung von VNC-Sitzungen über KRDC
+ Comment[el]=Επιτρέπει τη διαχείριση συνεδριών VNC μέσω του KRDC
+diff -Nur kdenetwork-4.3.4/krfb/kcm_krfb/kcmkrfb.desktop kdenetwork-4.3.5/krfb/kcm_krfb/kcmkrfb.desktop
+--- kdenetwork-4.3.4/krfb/kcm_krfb/kcmkrfb.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/krfb/kcm_krfb/kcmkrfb.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -17,6 +17,7 @@
+ Name[bn]=ডেস্কটপ ভাগাভাগি
+ Name[br]=Rannañ ar vurev
+ Name[ca]=Compartició de l'escriptori
++Name[ca@valencia]=Compartició de l'escriptori
+ Name[cs]=Sdílení pracovní plochy
+ Name[cy]=Rhannu Penbwrdd
+ Name[da]=Desktopdeling
+@@ -83,6 +84,7 @@
+ Comment[bn]=ডেস্কটপ ভাগাভাগি কনফিগার করুন
+ Comment[br]=Kefluniañ rannañ ar vurev
+ Comment[ca]=Lupa de l'escriptori
++Comment[ca@valencia]=Lupa de l'escriptori
+ Comment[cs]=Nastavit sdílení pracovní plochy
+ Comment[cy]=Ffurfweddu Rhannu Penbwrdd
+ Comment[da]=Indstil desktopdeling
+diff -Nur kdenetwork-4.3.4/krfb/kinetd/kinetd.desktop kdenetwork-4.3.5/krfb/kinetd/kinetd.desktop
+--- kdenetwork-4.3.4/krfb/kinetd/kinetd.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/krfb/kinetd/kinetd.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -13,6 +13,7 @@
+ Name[bn]=কে-ডি-ই ইন্টারনেট ডিমন
+ Name[br]=Diaoul kenrouedad KDE
+ Name[ca]=Dimoni d'Internet per al KDE
++Name[ca@valencia]=Dimoni d'Internet per al KDE
+ Name[cs]=KDE Internet démon
+ Name[cy]=Daemon Rhyngrwyd KDE
+ Name[da]=KDE Internet-dæmon
+@@ -78,6 +79,7 @@
+ Comment[bg]=Интернет демон, който служи за стартиране на мрежови услуги при поискване
+ Comment[bn]=একটি ইন্টারনেট ডিমন যে চাহিদা ভিত্তিক নেটওয়ার্ক সার্ভিস আরম্ভ করে
+ Comment[ca]=Un dimoni d'Internet que arrenca els serveis de xarxa sota demanda
++Comment[ca@valencia]=Un dimoni d'Internet que arrenca els serveis de xarxa sota demanda
+ Comment[cs]=Internetový démon spouštějící síťové služby na požádání
+ Comment[cy]=Daemon Rhyngrwyd sy'n cychwyn gwasanaethau rhwydwaith ar alw
+ Comment[da]=En internet-dæmon der starter netværkstjenester efter forespørgsel
+diff -Nur kdenetwork-4.3.4/krfb/kinetd/kinetdmodule.desktop kdenetwork-4.3.5/krfb/kinetd/kinetdmodule.desktop
+--- kdenetwork-4.3.4/krfb/kinetd/kinetdmodule.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/krfb/kinetd/kinetdmodule.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name[bn]=কে-আইনেট-ডি মডিউল ধরন
+ Name[br]=Seurt ar mollad KInetD
+ Name[ca]=Tipus de mòdul del KInetD
++Name[ca@valencia]=Tipus de mòdul del KInetD
+ Name[cs]=Typ modulu KInetD
+ Name[cy]=Math Modiwl KInetD
+ Name[da]=KInetD-modultype
+diff -Nur kdenetwork-4.3.4/krfb/kinetd/kinetd.notifyrc kdenetwork-4.3.5/krfb/kinetd/kinetd.notifyrc
+--- kdenetwork-4.3.4/krfb/kinetd/kinetd.notifyrc	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/krfb/kinetd/kinetd.notifyrc	2010-01-21 21:48:44.000000000 +0100
+@@ -5,6 +5,7 @@
+ Comment[bn]=কে-আইনেট-ডি
+ Comment[br]=KInetD
+ Comment[ca]=KInetD
++Comment[ca@valencia]=KInetD
+ Comment[cs]=KInetD
+ Comment[cy]=KInetD
+ Comment[da]=KInetD
+@@ -65,6 +66,7 @@
+ Name[bn]=অন্তর্মুখী সংযোগ
+ Name[br]=Kevreadenn resev
+ Name[ca]=Connexió entrant
++Name[ca@valencia]=Connexió entrant
+ Name[cs]=Příchozí spojení
+ Name[cy]=CysylltiadCyrraedd
+ Name[da]=IndkommendeForbindelse
+@@ -105,7 +107,7 @@
+ Name[ro]=ConexiuneDeIntrare
+ Name[ru]=Входящее соединение
+ Name[sk]=Prichádzajúce spojenia
+-Name[sl]=Prihajajoča povezava
++Name[sl]=Prejeta povezava
+ Name[sr]=Долазна веза
+ Name[sr@latin]=Dolazna veza
+ Name[sv]=Inkommande anslutning
+@@ -123,6 +125,7 @@
+ Comment[ar]=تلقي اتصال وارد 
+ Comment[bn]=অন্তর্মুখী সংযোগ গ্রহণ করল
+ Comment[ca]=Rebuda connexió entrant
++Comment[ca@valencia]=Rebuda connexió entrant
+ Comment[cs]=Obdrženo příchozí spojení
+ Comment[cy]=Derbynwyd cysylltiad a gyrhaeddodd
+ Comment[da]=Modtog indkommende forbindelse
+@@ -182,6 +185,7 @@
+ Name[ar]=فشلت العملية
+ Name[bn]=প্রসেস ব্যর্থ
+ Name[ca]=Procés erroni
++Name[ca@valencia]=Procés erroni
+ Name[cs]=Proces selhal
+ Name[cy]=MethoddProses
+ Name[da]=ProcesMislykkedes
+@@ -240,6 +244,7 @@
+ Comment[ar]= لا يمكن نداء الإجراء إلى مؤشر الاتصال
+ Comment[bn]=সংযোগ পরিচালনা করতে প্রসেস শুরু করতে পারল না
+ Comment[ca]=No es pot cridar al procés per a manejar la connexió
++Comment[ca@valencia]=No es pot cridar al procés per a manejar la connexió
+ Comment[cs]=Nelze spustit proces k obsluze spojení
+ Comment[cy]=Methu galw proses i drin y cysylltiad
+ Comment[da]=Kunne ikke kalde proces til at håndtere forbindelse
+diff -Nur kdenetwork-4.3.4/krfb/krfb.desktop kdenetwork-4.3.5/krfb/krfb.desktop
+--- kdenetwork-4.3.4/krfb/krfb.desktop	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/krfb/krfb.desktop	2010-01-21 21:48:44.000000000 +0100
+@@ -11,6 +11,7 @@
+ Name[bn]=কে-আর-এফ-বি
+ Name[br]=Krfb
+ Name[ca]=Krfb
++Name[ca@valencia]=Krfb
+ Name[cs]=Krfb
+ Name[da]=Krfb
+ Name[de]=Krfb
+@@ -69,6 +70,7 @@
+ GenericName[bn]=ডেস্কটপ ভাগাভাগি
+ GenericName[br]=Rannañ ar vurev
+ GenericName[ca]=Compartició de l'escriptori
++GenericName[ca@valencia]=Compartició de l'escriptori
+ GenericName[cs]=Sdílení pracovní plochy
+ GenericName[cy]=Rhannu Penbwrdd
+ GenericName[da]=Desktopdeling
+diff -Nur kdenetwork-4.3.4/krfb/krfb.notifyrc kdenetwork-4.3.5/krfb/krfb.notifyrc
+--- kdenetwork-4.3.4/krfb/krfb.notifyrc	2009-10-02 10:21:12.000000000 +0200
++++ kdenetwork-4.3.5/krfb/krfb.notifyrc	2010-01-21 21:48:44.000000000 +0100
+@@ -6,6 +6,7 @@
+ Comment[bn]=ডেস্কটপ ভাগাভাগি
+ Comment[br]=Rannañ ar vurev
+ Comment[ca]=Compartició de l'escriptori
++Comment[ca@valencia]=Compartició de l'escriptori
+ Comment[cs]=Sdílení pracovní plochy
+ Comment[cy]=Rhannu Penbwrdd
+ Comment[da]=Desktopdeling
+@@ -64,6 +65,7 @@
+ Name=User Accepts Connection
+ Name[ar]=المستخدم يقبل الاتصال
+ Name[ca]=L'usuari accepta la connexió
++Name[ca@valencia]=L'usuari accepta la connexió
+ Name[cs]=Uživatel přijímá spojení
+ Name[da]=Bruger accepterer forbindelse
+ Name[de]=Benutzer akzeptiert Verbindung
+@@ -113,6 +115,7 @@
+ Comment[ar]=المستخدم يقبل الاتصال
+ Comment[bn]=ব্যবহারকারী সংযোগ গ্রহণ করে
+ Comment[ca]=L'usuari accepta la connexió
++Comment[ca@valencia]=L'usuari accepta la connexió
+ Comment[cs]=Uživatel přijímá spojení
+ Comment[cy]=Mae'r defnyddiwr yn derbyn y cysylltiad
+ Comment[da]=Bruger accepterer forbindelse
+@@ -172,6 +175,7 @@
+ Name=User Refuses Connection
+ Name[ar]=المستخدم يرفض الاتصال
+ Name[ca]=L'usuari refusa la connexió
++Name[ca@valencia]=L'usuari refusa la connexió
+ Name[cs]=Uživatel odmítá spojení
+ Name[da]=Bruger afslår forbindelse
+ Name[de]=Benutzer verweigert Verbindung
+@@ -221,6 +225,7 @@
+ Comment[ar]=المستخدم يرفض الاتصال
+ Comment[bn]=ব্যবহারকারী সংযোগ অস্বীকার করে
+ Comment[ca]=L'usuari refusa la connexió
++Comment[ca@valencia]=L'usuari refusa la connexió
+ Comment[cs]=Uživatel odmítá spojení
+ Comment[cy]=Mae'r defnyddiwr yn gwrthod y cysylltiad
+ Comment[da]=Bruger afslår forbindelse
+@@ -280,6 +285,7 @@
+ Name=Connection Closed
+ Name[ar]=الاتصال أغلق
+ Name[ca]=Connexió tancada
++Name[ca@valencia]=Connexió tancada
+ Name[cs]=Spojení ukončeno
+ Name[da]=Forbindelse lukket
+ Name[de]=Verbindung geschlossen
+@@ -331,6 +337,7 @@
+ Comment[bn]=সংযোগ বন্ধ করা হল
+ Comment[br]=Serret eo ar gevreadenn
+ Comment[ca]=Connexió tancada
++Comment[ca@valencia]=Connexió tancada
+ Comment[cs]=Spojení ukončeno
+ Comment[cy]=Mae'r cysylltiad ar gau
+ Comment[da]=Forbindelse lukket
+@@ -392,6 +399,7 @@
+ Name=Invalid Password
+ Name[ar]=كلمة المرور غير صحيحة
+ Name[ca]=Contrasenya no vàlida
++Name[ca@valencia]=Contrasenya no vàlida
+ Name[cs]=Neplatné heslo
+ Name[da]=Ugyldig adgangskode
+ Name[de]=Passwort ungültig
+@@ -442,6 +450,7 @@
+ Comment[bn]=অবৈধ পাসওয়ার্ড
+ Comment[br]=Tremenger siek 
+ Comment[ca]=Contrasenya no vàlida
++Comment[ca@valencia]=Contrasenya no vàlida
+ Comment[cs]=Neplatné heslo
+ Comment[cy]=Cyfrinair annilys
+ Comment[da]=Ugyldig adgangskode
+@@ -506,6 +515,7 @@
+ Name=Invalid Password Invitations
+ Name[ar]=كلمة المرور الدعوات غير صحيحة
+ Name[ca]=Contrasenya de les invitacions no vàlides
++Name[ca@valencia]=Contrasenya de les invitacions no vàlides
+ Name[cs]=Neplatné hesla výzev
+ Name[da]=Ugyldige adgangskodeinvitationer
+ Name[de]=Ungültiges Einladungs-Passwort
+@@ -555,6 +565,7 @@
+ Comment[ar]=المدعو أرسل كلمة مرور غير صحيحة. رفض الإتصال.
+ Comment[bn]=আমন্ত্রিত দল একটি অবৈধ পাসওয়ার্ড পাঠাল। সংযোগ অস্বীকার করা হল।
+ Comment[ca]=La part invitada ha enviat una contrasenya no vàlida. Connexió refusada.
++Comment[ca@valencia]=La part invitada ha enviat una contrasenya no vàlida. Connexió refusada.
+ Comment[cs]=Pozvaná strana poslala neplatné heslo. Spojení odmítnuto.
+ Comment[cy]=Anfonodd y person gwahodd cyfrinair annilys.  Gwrthodwyd y cysylltiad.
+ Comment[da]=Den inviterede part sendte en ugyldig adgangskode. Forbindelse afslået.
+@@ -613,6 +624,7 @@
+ Name=New Connection on Hold
+ Name[ar]=اتصال جديد  على التوقف
+ Name[ca]=Nova connexió en espera
++Name[ca@valencia]=Nova connexió en espera
+ Name[cs]=Nové spojení pozdrženo
+ Name[da]=Ny forbindelse sat til at vente
+ Name[de]=Neue Verbindung wartet
+@@ -662,6 +674,7 @@
+ Comment[ar]=الاتصال طلب، يجب موافقة المستخدم
+ Comment[bn]=সংযোগ অনুরোধ করা হল, ব্যবহারকারীকে অবশ্যই স্বীকার করতে হবে
+ Comment[ca]=Connexió sol·licitada, l'usuari ha d'acceptar-la
++Comment[ca@valencia]=Connexió sol·licitada, l'usuari ha d'acceptar-la
+ Comment[cs]=Vyžadováno spojení, uživatel musí přijmout
+ Comment[cy]=Cais wedi'i wneud am gysylltiad,rhaid i'r ddefnyddiwr ei dderbyn
+ Comment[da]=Forbindelse forespurgt, bruger skal acceptere
+@@ -721,6 +734,7 @@
+ Name=New Connection Auto Accepted
+ Name[ar]=اتصال جديد مقبول تلقائيا
+ Name[ca]=Nova connexió acceptada automàticament
++Name[ca@valencia]=Nova connexió acceptada automàticament
+ Name[cs]=Nové spojení automaticky přijato
+ Name[da]=Ny forbindelse automatisk accepteret
+ Name[de]=Neue Verbindung automatisch angenommen
+@@ -770,6 +784,7 @@
+ Comment[ar]=اتصال جديد مفعل تلقائيا 
+ Comment[bn]=নতুন সংযোগ স্বয়ংক্রীয়ভাবে স্থাপন করা হল
+ Comment[ca]=Nova connexió establerta automàticament
++Comment[ca@valencia]=Nova connexió establerta automàticament
+ Comment[cs]=Automaticky navázáno nové spojení
+ Comment[cy]=Sefydlwyd cysylltiad newydd yn awtomatig
+ Comment[da]=Ny forbindelse automatisk etableret
+@@ -829,6 +844,7 @@
+ Name=Too Many Connections
+ Name[ar]=اتصالات عديدة
+ Name[ca]=Massa connexions
++Name[ca@valencia]=Massa connexions
+ Name[cs]=Příliš mnoho spojení
+ Name[da]=For mange forbindelser
+ Name[de]=Zu viele Verbindungen
+@@ -879,6 +895,7 @@
+ Comment[bn]=ব্যস্ত, সংযোগ অস্বীকার করল
+ Comment[br]=Dalc'het, kevreadenn disteuleret
+ Comment[ca]=Ocupat, connexió refusada
++Comment[ca@valencia]=Ocupat, connexió refusada
+ Comment[cs]=Zaneprázdněn, spojení odmítnuto
+ Comment[cy]=Prysur, gwrthodwyd y cysylltiad
+ Comment[da]=Optaget, forbindelse afslået
+@@ -941,6 +958,7 @@
+ Name=Unexpected Connection
+ Name[ar]=الاتصال غير متوقّع
+ Name[ca]=Connexió inesperada
++Name[ca@valencia]=Connexió inesperada
+ Name[cs]=Neočekávané spojení
+ Name[da]=Uventet forbindelse
+ Name[de]=Unerwartete Verbindung
+@@ -990,6 +1008,7 @@
+ Comment[ar]=استقبال اتصال غير متوقع، إنهاء
+ Comment[bn]=অপ্রত্যাশিত সংযোগ গ্রহণ করল, বাতিল করুন
+ Comment[ca]=Rebuda una connexió inesperada, avortant
++Comment[ca@valencia]=Rebuda una connexió inesperada, avortant
+ Comment[cs]=Obdrženo neočekávané spojení, přerušeno
+ Comment[cy]=Derbynwyd cysylltiad annisgwyl,terfynu
+ Comment[da]=Modtog uventet forbindelse, afbrød

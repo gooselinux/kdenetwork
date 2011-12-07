@@ -1,0 +1,82 @@
+Index: kopete/protocols/jabber/jabberaccount.h
+===================================================================
+--- kopete/protocols/jabber/jabberaccount.h	(Revision 985394)
++++ kopete/protocols/jabber/jabberaccount.h	(Revision 985395)
+@@ -128,6 +128,16 @@
+ 	 * called when the account is removed in the config ui
+ 	*/
+ 	virtual bool removeAccount();
++
++	/**
++	 * return if kopete show all messges from all resources to one session
++	 */
++	bool mergeMessages();
++
++	/**
++	 * set if kopete will merge all messages to one session
++	 */
++	void setMergeMessages(bool b);
+ 	
+ #ifdef JINGLE_SUPPORT
+ 	JingleCallsManager *jingleCallsManager() const {return m_jcm;}
+Index: kopete/protocols/jabber/jabbercontact.cpp
+===================================================================
+--- kopete/protocols/jabber/jabbercontact.cpp	(Revision 985394)
++++ kopete/protocols/jabber/jabbercontact.cpp	(Revision 985395)
+@@ -341,7 +341,10 @@
+ 					m.setPlainBody( i18n("%1 has ended his/her participation in the chat session.", metaContact()->displayName()) );
+ 					m.setDirection( Kopete::Message::Internal );
+ 
+-					mManager->appendMessage ( m, message.from().resource () );
++					if ( account()->mergeMessages() )
++						mManager->appendMessage ( m, QString() );
++					else
++						mManager->appendMessage ( m, message.from().resource () );
+ 				}
+ 			}
+ 		}
+@@ -426,7 +429,10 @@
+ 	// append message to (eventually new) manager and preselect the originating resource
+ 	if ( newMessage )
+ 	{
+-		mManager->appendMessage ( *newMessage, message.from().resource () );
++		if ( account()->mergeMessages() )
++			mManager->appendMessage ( *newMessage, QString() );
++		else
++			mManager->appendMessage ( *newMessage, message.from().resource () );
+ 
+ 		delete newMessage;
+ 	}
+@@ -450,7 +456,10 @@
+ 		msg.setDirection( Kopete::Message::Inbound );
+ 		msg.setRequestedPlugin( viewPlugin );
+ 
+-		mManager->appendMessage ( msg, message.from().resource () );
++		if ( account()->mergeMessages() )
++			mManager->appendMessage ( msg, QString() );
++		else
++			mManager->appendMessage ( msg, message.from().resource () );
+ 	}
+ }
+ 
+Index: kopete/protocols/jabber/jabberaccount.cpp
+===================================================================
+--- kopete/protocols/jabber/jabberaccount.cpp	(Revision 985394)
++++ kopete/protocols/jabber/jabberaccount.cpp	(Revision 985395)
+@@ -1720,6 +1720,16 @@
+ 		Kopete::AccountManager::self()->removeAccount( this ); //this will delete this
+ }
+ 
++void JabberAccount::setMergeMessages(bool b)
++{
++	configGroup()->writeEntry("MergeMessages", b);
++}
++
++bool JabberAccount::mergeMessages()
++{
++	return configGroup()->readEntry("MergeMessages", true);
++}
++
+ /*
+ JabberMoodAction::JabberMoodAction(const Mood::Type type, QObject *parent):
+ KAction(parent)
