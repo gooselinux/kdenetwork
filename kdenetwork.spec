@@ -2,7 +2,7 @@ Summary: KDE Network Applications
 Name: kdenetwork
 Epoch: 7
 Version: 4.3.4
-Release: 10%{?dist}
+Release: 11%{?dist}.1
 License: GPLv2
 Group: Applications/Internet
 Url: http://www.kde.org
@@ -33,6 +33,7 @@ Patch200: kdenetwork-4.3.0-jabber-kde#111537.patch
 # rhbz#591967 -  CVE-2010-1000 CVE-2010-1511 kdenetwork: improper sanitization 
 # of metalink attribute for downloading files
 Patch300: kdenetwork-4.3.4-cve-2010-1000_1511.patch
+Patch301: kdenetwork-4.3-CVE-2010-1000.patch
 
 BuildRequires: boost-devel
 BuildRequires: giflib-devel
@@ -115,6 +116,7 @@ chmod +x kopete/kopete/kconf_update/kopete-update_yahoo_server.pl
 
 # security patches
 %patch300 -p0 -b .cve-2010-1000_1511
+%patch301 -p1 -b .cve-2010-1000
 
 %build
 mkdir -p %{_target_platform}
@@ -215,6 +217,9 @@ fi
 
 
 %changelog
+* Tue Apr 19 2011 Than Ngo <than@redhat.com> - 7:4.3.4-11.1
+- CVE-2010-1000, improper sanitization of metalink attribute for downloading files
+
 * Fri Jul 02 2010 Than Ngo <than@redhat.com> - 7:4.3.4-10
 - Resolves: bz#606884, add missing COPYING in kdenetwork-libs
 
